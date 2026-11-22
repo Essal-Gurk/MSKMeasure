@@ -2,7 +2,7 @@
 
 
 # IsiX MSK Measurements
-Community Beta · v0.5 · Apple Silicon
+Community Beta · v0.6 · Apple Silicon
 
 IsiX MSK Measurements is an independent plugin for the IsiX DICOM Viewer. It shows how to measure musculoskeletal distances, angles, and indices. The methods include anatomical diagrams, labeled landmarks, guidance on image acquisition, and links to the relevant literature.
 What's in the beta
