@@ -1,0 +1,1374 @@
+[
+  {
+    "id": "mcs",
+    "title": "Medialer tibiotalarer Gelenkspalt (MCS)",
+    "region": "OSG",
+    "group": "OSG",
+    "aliases": "MCS medial clear space deltoid Innenband Sprunggelenk",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessene Strecke",
+        "unit": "mm",
+        "minimum": 0,
+        "maximum": 50
+      }
+    ],
+    "technique": "Horizontal zwischen den Gelenkflächen von Innenknöchel und medialem Talus messen. Oberen Gelenkspalt mitbeurteilen.",
+    "meaning": "Eine Aufweitung kann auf mediale Instabilität hinweisen.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "OSG-Mortise in Neutralstellung, ohne Stress.",
+        "reference": "Ohne Stress werden < 4–5 mm beschrieben. 4–5 mm anhand des oberen Gelenkspalts und der Aufnahmebedingungen einordnen. > 5 mm ist auffällig; die Stressreferenz darf nicht direkt übertragen werden.",
+        "rules": {
+          "lowerInclusive": false,
+          "upperInclusive": false,
+          "high": 5,
+          "highText": "Eine Aufweitung kann auf mediale Instabilität hinweisen.",
+          "low": 4,
+          "lowText": "Innerhalb der angegebenen Orientierungsgrenzen.",
+          "intermediate": "Grenzbereich 4–5 mm · Aufnahmebedingungen und oberen Gelenkspalt mitbeurteilen."
+        },
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13198512/#Fig2"
+      },
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31695262/"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "tfcs",
+    "title": "Distaler tibiofibularer Abstand (TFCS)",
+    "region": "OSG",
+    "group": "OSG",
+    "aliases": "TFCS tibiofibular clear space Sprunggelenk",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessene Strecke",
+        "unit": "mm",
+        "minimum": 0,
+        "maximum": 50
+      }
+    ],
+    "technique": "10 mm proximal des Tibia-Plafonds horizontal von der tibialen Inzisur zum medialen Fibularand messen.",
+    "meaning": "Eine Aufweitung kann auf eine Syndesmoseninsuffizienz hinweisen.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "OSG a.p. oder Mortise, ohne Stress.",
+        "reference": "Orientierungsgrenze ≥ 6 mm.",
+        "rules": {
+          "lowerInclusive": false,
+          "upperInclusive": true,
+          "high": 6,
+          "highText": "Eine Aufweitung kann auf eine Syndesmoseninsuffizienz hinweisen."
+        },
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13198512/#Fig5"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "talarTilt",
+    "title": "Talar Tilt in Varusrichtung",
+    "region": "OSG",
+    "group": "OSG",
+    "aliases": "Taluskippung Varus tilt Sprunggelenk",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": 0,
+        "maximum": 45
+      }
+    ],
+    "technique": "Winkel zwischen Tibia-Plafond und Talusrolle bei medialer Konvergenz messen. Bei Valguskippung diese Messkarte nicht anwenden.",
+    "meaning": "Vermehrter Varustilt kann auf laterale Instabilität hinweisen.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "OSG-Mortise in Neutralstellung, ohne Stress.",
+        "reference": "Orientierungsgrenze ≥ 2°.",
+        "rules": {
+          "lowerInclusive": false,
+          "upperInclusive": true,
+          "high": 2,
+          "highText": "Vermehrter Varustilt kann auf laterale Instabilität hinweisen."
+        },
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13198512/#Fig1"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "hva",
+    "title": "Hallux-valgus-Winkel (HVA)",
+    "region": "Fuß",
+    "group": "Fuß",
+    "aliases": "HVA Hallux valgus Vorfuß Mittelfuß",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": 0,
+        "maximum": 180
+      }
+    ],
+    "technique": "Winkel zwischen Längsachsen des 1. Mittelfußknochens und der Großzehengrundphalanx messen.",
+    "meaning": "Ein vergrößerter Winkel entspricht einer Valgusabweichung der Großzehe.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Dorsoplantare Fußaufnahme im Stand unter Belastung.",
+        "reference": "Orientierungsgrenze ≥ 15°.",
+        "rules": {
+          "lowerInclusive": false,
+          "upperInclusive": true,
+          "high": 15,
+          "highText": "Ein vergrößerter Winkel entspricht einer Valgusabweichung der Großzehe."
+        },
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13198512/#Fig21"
+      },
+      {
+        "label": "Ergänzende Fachquelle",
+        "url": "https://journals.sagepub.com/doi/full/10.1177/2473011419838500"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "ima",
+    "title": "Intermetatarsalwinkel I–II (IMA)",
+    "region": "Fuß",
+    "group": "Fuß",
+    "aliases": "IMA MT1 MT2 Mittelfuß Vorfuß",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": 0,
+        "maximum": 180
+      }
+    ],
+    "technique": "Kleinen Winkel zwischen den Schaftachsen der Mittelfußknochen I und II messen.",
+    "meaning": "Ein vergrößerter Winkel erfasst die Spreizung zwischen dem ersten und zweiten Mittelfußstrahl.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Dorsoplantare Fußaufnahme im Stand unter Belastung.",
+        "reference": "Orientierungsgrenze ≥ 9°.",
+        "rules": {
+          "lowerInclusive": false,
+          "upperInclusive": true,
+          "high": 9,
+          "highText": "Ein vergrößerter Winkel erfasst die Spreizung zwischen dem ersten und zweiten Mittelfußstrahl."
+        },
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://journals.sagepub.com/doi/full/10.1177/2473011419838500"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "meary",
+    "title": "Meary-Winkel",
+    "region": "Fuß",
+    "group": "Fuß",
+    "aliases": "Meary talo metatarsal Fußlängsgewölbe Mittelfuß",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": -90,
+        "maximum": 90
+      }
+    ],
+    "technique": "Taluskopf-Hals-Achse und Längsachse von Metatarsale I verbinden bzw. verlängern. Plantare Konvexität positiv, dorsale negativ.",
+    "meaning": "Maß für das mediale Fußlängsgewölbe unter Belastung.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Seitliche Fußaufnahme im Stand unter Belastung.",
+        "reference": "Orientierungsbereich −4° bis +4°.",
+        "rules": {
+          "lowerInclusive": false,
+          "upperInclusive": false,
+          "low": -4,
+          "lowText": "Vereinbar mit vermehrt ausgeprägtem Längsgewölbe.",
+          "high": 4,
+          "highText": "Vereinbar mit abgeflachtem Längsgewölbe."
+        },
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13198512/#Fig11"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "pitch",
+    "title": "Kalkaneusneigung (Calcaneal Pitch)",
+    "region": "Fuß",
+    "group": "Fuß",
+    "aliases": "Calcaneal pitch Calcaneus Neigung Mittelfuß Rückfuß",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": 0,
+        "maximum": 90
+      }
+    ],
+    "technique": "Winkel zwischen plantarer Kalkaneustangente und Linie von Tuberositas calcanei zur Plantarseite des Metatarsale-V-Köpfchens messen.",
+    "meaning": "Maß für das mediale Fußlängsgewölbe unter Belastung.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Seitliche Fußaufnahme im Stand unter Belastung.",
+        "reference": "Orientierungsbereich 20° bis 30°.",
+        "rules": {
+          "lowerInclusive": false,
+          "upperInclusive": false,
+          "low": 20,
+          "lowText": "Vereinbar mit abgeflachtem Längsgewölbe.",
+          "high": 30,
+          "highText": "Vereinbar mit vermehrt ausgeprägtem Längsgewölbe."
+        },
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13198512/#Fig12"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "tnu",
+    "title": "Talonavikuläre Nichtüberdachung",
+    "region": "Fuß",
+    "group": "Fuß",
+    "aliases": "TN uncoverage Talonavikulär Chopart Mittelfuß pes planovalgus",
+    "formula": "percent",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Unüberdachter Anteil",
+        "unit": "mm",
+        "minimum": 0,
+        "maximum": 100
+      },
+      {
+        "id": "B",
+        "label": "B · Gesamtlänge der Gelenkfläche",
+        "unit": "mm",
+        "minimum": 0,
+        "maximum": 100
+      }
+    ],
+    "technique": "Medial unbedeckte Länge der Taluskopfgelenkfläche (A) und deren gesamte Länge (B) messen. Ausgabe A ÷ B × 100.",
+    "meaning": "Vermehrte Freilegung des Taluskopfes kann auf Abduktion des Vorfußes hinweisen.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Dorsoplantare Fußaufnahme im Stand unter Belastung.",
+        "reference": "Orientierungsgrenze > 30%.",
+        "rules": {
+          "lowerInclusive": false,
+          "upperInclusive": false,
+          "high": 30,
+          "highText": "Vermehrte Freilegung des Taluskopfes kann auf Abduktion des Vorfußes hinweisen."
+        },
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13198512/#Fig13"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "lisfranc",
+    "title": "Lisfranc-Abstand (C1–M2)",
+    "region": "Fuß",
+    "group": "Fuß",
+    "aliases": "Lisfranc C1 M2 TMT Mittelfuß",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessene Strecke",
+        "unit": "mm",
+        "minimum": 0,
+        "maximum": 30
+      }
+    ],
+    "technique": "Abstand zwischen lateraler Kontur des Os cuneiforme mediale und medialer Kontur der Basis von Metatarsale II messen. Gegenseite und Gelenkfluchten mitbeurteilen.",
+    "meaning": "Aufweitung kann auf eine Lisfranc-Instabilität hinweisen.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Dorsoplantare Fußaufnahme im Stand unter Belastung.",
+        "reference": "Orientierungsgrenze > 2 mm.",
+        "rules": {
+          "lowerInclusive": false,
+          "upperInclusive": false,
+          "high": 2,
+          "highText": "Aufweitung kann auf eine Lisfranc-Instabilität hinweisen."
+        },
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13198512/"
+      },
+      {
+        "label": "Ergänzende Fachquelle",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10680278/"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "lcea",
+    "title": "Lateraler CE-Winkel nach Wiberg (LCEA)",
+    "region": "Hüfte",
+    "group": "Hüfte",
+    "aliases": "LCEA Wiberg CE Winkel Dysplasie Hüftgelenk Sourcil",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": -45,
+        "maximum": 100
+      }
+    ],
+    "technique": "Vom Hüftkopfzentrum das Lot auf die Tränenfigurenlinie und eine Linie zum lateralen Ende des gewichttragenden Sourcils ziehen. Winkel messen.",
+    "meaning": "Maß für die knöcherne Überdachung des Femurkopfes.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Standardisierte Beckenübersicht a.p. ohne relevante Beckenkippung oder -rotation.",
+        "reference": "< 20° Unterüberdachung, 20–25° grenzwertig, > 25° bis 40° üblich, > 40° mögliche Überüberdachung.",
+        "rules": {
+          "lowerInclusive": true,
+          "upperInclusive": false,
+          "low": 25,
+          "lowText": "Hinweis auf verminderte oder grenzwertige Femurkopfüberdachung.",
+          "high": 40,
+          "highText": "Hinweis auf mögliche Überüberdachung des Femurkopfes."
+        },
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5794674/"
+      }
+    ],
+    "ageGroup": "all",
+    "otherRegions": [
+      "Becken"
+    ]
+  },
+  {
+    "id": "tonnis",
+    "title": "Tönnis-Winkel (Sourcil-Neigung)",
+    "region": "Hüfte",
+    "group": "Hüfte",
+    "aliases": "Tönnis Acetabular index Sourcil Dachwinkel Hüftgelenk",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": -45,
+        "maximum": 60
+      }
+    ],
+    "technique": "Winkel zwischen Tränenfigurenlinie und Verbindung vom medialen zum lateralen Ende des gewichttragenden Sourcils messen. Anstieg nach lateral positiv.",
+    "meaning": "Maß für die knöcherne Überdachung des Femurkopfes.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Standardisierte Beckenübersicht a.p. ohne relevante Beckenkippung oder -rotation.",
+        "reference": "Orientierungsbereich 0–10°. Andere Publikationen nennen −10–10°; negative Werte im morphologischen Kontext einordnen.",
+        "rules": {
+          "lowerInclusive": false,
+          "upperInclusive": false,
+          "low": 0,
+          "lowText": "Hinweis auf mögliche Überüberdachung des Femurkopfes.",
+          "high": 10,
+          "highText": "Hinweis auf verminderte oder grenzwertige Femurkopfüberdachung."
+        },
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5794674/"
+      },
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4972716/"
+      }
+    ],
+    "ageGroup": "all",
+    "otherRegions": [
+      "Becken"
+    ]
+  },
+  {
+    "id": "alpha",
+    "title": "Alpha-Winkel der Hüfte",
+    "region": "Hüfte",
+    "group": "Hüfte",
+    "aliases": "Alpha angle Cam FAI Hüftgelenk Impingement",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": 0,
+        "maximum": 180
+      }
+    ],
+    "technique": "Bestpassenden Kreis um den Femurkopf legen. Vom Zentrum Schenkelhalsachse und Radius zum ersten Austritt der Kopf-Hals-Kontur aus dem Kreis ziehen. Winkel messen.",
+    "meaning": "Ein erhöhter Winkel spricht für eine Cam-Morphologie. Die Diagnose eines FAI-Syndroms erfordert passende Klinik.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Dunn-45°-Aufnahme der Hüfte.",
+        "reference": "Orientierungsgrenze ≥ 60°.",
+        "rules": {
+          "lowerInclusive": false,
+          "upperInclusive": true,
+          "high": 60,
+          "highText": "Ein erhöhter Winkel spricht für eine Cam-Morphologie. Die Diagnose eines FAI-Syndroms erfordert passende Klinik."
+        },
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen."
+      },
+      {
+        "modality": "MR",
+        "setup": "Radiale MRT-Rekonstruktionen um die Schenkelhalsachse. Position bzw. Uhrzeit angeben.",
+        "reference": "Orientierungsgrenze ≥ 60°.",
+        "rules": {
+          "lowerInclusive": false,
+          "upperInclusive": true,
+          "high": 60,
+          "highText": "Ein erhöhter Winkel spricht für eine Cam-Morphologie. Die Diagnose eines FAI-Syndroms erfordert passende Klinik."
+        },
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7418265/"
+      },
+      {
+        "label": "Ergänzende Fachquelle",
+        "url": "https://bjsm.bmj.com/content/50/19/1169/"
+      }
+    ],
+    "ageGroup": "all",
+    "otherRegions": [
+      "Becken"
+    ]
+  },
+  {
+    "id": "ccd",
+    "title": "Caput-Collum-Diaphysen-Winkel (CCD)",
+    "region": "Hüfte",
+    "group": "Hüfte",
+    "aliases": "CCD Schenkelhalswinkel Hüftgelenk neck shaft angle",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": 90,
+        "maximum": 180
+      }
+    ],
+    "technique": "Medialen Winkel zwischen der Achse durch Hüftkopfzentrum und Schenkelhalsmitte und der Femurschaftachse messen.",
+    "meaning": "Die Projektion des Schenkelhalses beeinflusst den Winkel.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Standardisierte Beckenübersicht a.p. ohne relevante Beckenkippung oder -rotation.",
+        "reference": "Orientierungsbereich 125° bis 145°.",
+        "rules": {
+          "lowerInclusive": false,
+          "upperInclusive": false,
+          "low": 125,
+          "lowText": "Verminderter Winkel, vereinbar mit Coxa vara.",
+          "high": 145,
+          "highText": "Erhöhter Winkel, vereinbar mit Coxa valga."
+        },
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5794674/"
+      }
+    ],
+    "ageGroup": "all",
+    "otherRegions": [
+      "Becken"
+    ]
+  },
+  {
+    "id": "ahd",
+    "title": "Akromiohumeraler Abstand (AHD)",
+    "region": "Schulter",
+    "group": "Schulter",
+    "aliases": "AHD AHI subakromial acromiohumeral Rotatorenmanschette Schultergelenk",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessene Strecke",
+        "unit": "mm",
+        "minimum": 0,
+        "maximum": 40
+      }
+    ],
+    "technique": "Kürzeste Strecke zwischen Akromionunterfläche und Humeruskopfoberfläche messen.",
+    "meaning": "Ein verminderter Abstand kann eine kraniale Humeruskopfmigration bei Rotatorenmanschetteninsuffizienz anzeigen.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Standardisierte echte a.p.-Aufnahme in Skapulaebene.",
+        "reference": "Orientierungsgrenze ≤ 6 mm.",
+        "rules": {
+          "lowerInclusive": true,
+          "upperInclusive": false,
+          "low": 6,
+          "lowText": "Ein verminderter Abstand kann eine kraniale Humeruskopfmigration bei Rotatorenmanschetteninsuffizienz anzeigen."
+        },
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12733528/"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "csa",
+    "title": "Kritischer Schulterwinkel (CSA)",
+    "region": "Schulter",
+    "group": "Schulter",
+    "aliases": "CSA Moor critical shoulder angle Schultergelenk",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": 0,
+        "maximum": 90
+      }
+    ],
+    "technique": "Linie zwischen oberem und unterem Glenoidrand. Zweite Linie vom unteren Glenoidrand zum inferolateralen Akromionrand. Winkel am unteren Glenoid messen.",
+    "meaning": "Erfasst Glenoidneigung und laterale Ausdehnung des Akromions.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Standardisierte echte a.p.-Aufnahme in Skapulaebene.",
+        "reference": "Orientierungsbereich 30° bis 35°.",
+        "rules": {
+          "lowerInclusive": false,
+          "upperInclusive": false,
+          "low": 30,
+          "lowText": "Unter der angegebenen Orientierungsgrenze.",
+          "high": 35,
+          "highText": "Über der angegebenen Orientierungsgrenze."
+        },
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10920144/#Fig1"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "cc",
+    "title": "Korakoklavikulärer Seitenvergleich",
+    "region": "Schulter",
+    "group": "Schulter",
+    "aliases": "CC AC ACG Zanca coracoclavicular Schultereckgelenk Schultergelenk",
+    "formula": "relativeDifference",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Untersuchte Seite",
+        "unit": "mm",
+        "minimum": 0.1,
+        "maximum": 100
+      },
+      {
+        "id": "B",
+        "label": "B · Gegenseite",
+        "unit": "mm",
+        "minimum": 0.1,
+        "maximum": 100
+      }
+    ],
+    "technique": "Beidseits Abstand vom Korakoidoberrand zur Klavikulaunterseite messen. Ausgabe (A − B) ÷ B × 100.",
+    "meaning": "Positiv bedeutet auf der untersuchten Seite weiter als kontralateral.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Beidseitige Zanca-Aufnahme ohne Zugbelastung der Arme.",
+        "reference": "Seitenvergleich. Keine automatische Verletzungsgraduierung.",
+        "rules": null,
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen.",
+        "descriptiveAssessment": "Positiv bedeutet auf der untersuchten Seite weiter als kontralateral."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://doi.org/10.1007/s00167-020-06286-w"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "glenoid",
+    "title": "Glenoidversion nach Friedman",
+    "region": "Schulter",
+    "group": "Schulter",
+    "aliases": "Friedman Glenoidversion Retroversion Anteversion Schultergelenk",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": -90,
+        "maximum": 90
+      }
+    ],
+    "technique": "Skapulaachse vom medialen Rand zur Glenoidmitte ziehen. Winkel zwischen ihrem Lot und der Verbindung von vorderem und hinterem Glenoidrand messen. Retroversion negativ.",
+    "meaning": "Die Gelenkflächenversion ist für die Schulterprothesenplanung relevant.",
+    "profiles": [
+      {
+        "modality": "CT",
+        "setup": "Axiale CT in Skapulaebene durch die Glenoidmitte.",
+        "reference": "Protokoll-, Lagerungs- und methodenabhängig. Bei Seitenvergleich dieselben Landmarken nutzen.",
+        "rules": null,
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen.",
+        "descriptiveAssessment": "Die Gelenkflächenversion ist für die Schulterprothesenplanung relevant."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13563660/"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "baumann",
+    "title": "Baumann-Winkel",
+    "region": "Ellenbogen",
+    "group": "Ellenbogen",
+    "aliases": "Baumann Humerokapitellär Ellbogen Ellenbogengelenk suprakondylär",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": 0,
+        "maximum": 120
+      }
+    ],
+    "technique": "Akuten Winkel zwischen Humerusschaftachse und Linie entlang der capitellären Wachstumsfuge messen.",
+    "meaning": "Bei offener Fuge zur Beurteilung der koronaren Achse des distalen Humerus.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Ellenbogen a.p. mit sichtbarer offener Capitulumfuge.",
+        "reference": "Pädiatrischer Orientierungsbereich 64–81°. Projektion und Gegenseite berücksichtigen.",
+        "rules": null,
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen.",
+        "descriptiveAssessment": "Bei offener Fuge zur Beurteilung der koronaren Achse des distalen Humerus.",
+        "pediatricReference": true
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5337779/"
+      },
+      {
+        "label": "Ergänzende Fachquelle",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1517426/"
+      }
+    ],
+    "ageGroup": "pediatric"
+  },
+  {
+    "id": "carrying",
+    "title": "Humeroulnarer Tragewinkel",
+    "region": "Ellenbogen",
+    "group": "Ellenbogen",
+    "aliases": "Tragewinkel carrying angle humeroulnar Ellbogen Ellenbogengelenk",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": -45,
+        "maximum": 60
+      }
+    ],
+    "technique": "Achsen des distalen Humerus und der proximalen Ulna bestimmen. Abweichung von der geraden Achse messen. Valgus positiv, Varus negativ.",
+    "meaning": "Quantifiziert den frontalen Valgus oder Varus des Ellenbogens.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Ellenbogen a.p. in voller Extension und Supination.",
+        "reference": "Alters- und positionsabhängig. Seitengleich messen und vergleichen.",
+        "rules": null,
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen.",
+        "descriptiveAssessment": "Quantifiziert den frontalen Valgus oder Varus des Ellenbogens."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3355210/"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "slgap",
+    "title": "Skapholunärer Abstand (SL)",
+    "region": "Handgelenk",
+    "group": "Handgelenk",
+    "aliases": "SL Abstand SL gap Terry Thomas Skapholunär Handwurzel",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessene Strecke",
+        "unit": "mm",
+        "minimum": 0,
+        "maximum": 50
+      }
+    ],
+    "technique": "Zwischen den benachbarten Konturen von Skaphoid und Lunatum in der Mitte des SL-Gelenkspalts messen.",
+    "meaning": "Eine Aufweitung kann auf skapholunäre Instabilität hinweisen.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Handgelenk p.a. in Neutralstellung, ohne Belastung.",
+        "reference": "Orientierungsgrenze ≥ 3 mm.",
+        "rules": {
+          "lowerInclusive": false,
+          "upperInclusive": true,
+          "high": 3,
+          "highText": "Eine Aufweitung kann auf skapholunäre Instabilität hinweisen."
+        },
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6209348/"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "slangle",
+    "title": "Skapholunärer Winkel (SL)",
+    "region": "Handgelenk",
+    "group": "Handgelenk",
+    "aliases": "SL Winkel DISI VISI Skapholunär Handwurzel",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": 0,
+        "maximum": 180
+      }
+    ],
+    "technique": "Skaphoidachse entlang der palmaren Tangente. Lunatumachse senkrecht zur Verbindung der dorsalen und palmaren Lunatumhörner. Winkel beider Achsen messen.",
+    "meaning": "Beurteilt die sagittale Stellung von Skaphoid und Lunatum.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Streng seitliche Handgelenksaufnahme in Neutralstellung.",
+        "reference": "Orientierungsbereich 30° bis 60°.",
+        "rules": {
+          "lowerInclusive": false,
+          "upperInclusive": false,
+          "low": 30,
+          "lowText": "Unter der angegebenen Orientierungsgrenze.",
+          "high": 60,
+          "highText": "Erhöhter Winkel. Bei dorsaler Lunatumkippung mit DISI vereinbar."
+        },
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6209348/"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "ulnavar",
+    "title": "Ulnavarianz",
+    "region": "Handgelenk",
+    "group": "Handgelenk",
+    "aliases": "Ulnavarianz Ulna plus minus TFCC ulnar variance Handwurzel",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessene Strecke",
+        "unit": "mm",
+        "minimum": -25,
+        "maximum": 25
+      }
+    ],
+    "technique": "Zwei Lote auf die Radiuslängsachse durch die ulnare Ecke der Lunatumfacette und die distalste Kontur des Ulnakopfes ziehen. Abstand entlang der Radiusachse messen.",
+    "meaning": "Positive Ulnavarianz kann ein ulnokarpales Impaktionssyndrom begünstigen.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Handgelenk p.a. in Neutralstellung, ohne Belastung.",
+        "reference": "0 mm neutral, distal reichende Ulna positiv. Pronation und Faustschluss können den Wert ändern.",
+        "rules": null,
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen.",
+        "descriptiveAssessment": "Positive Ulnavarianz kann ein ulnokarpales Impaktionssyndrom begünstigen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9038308/"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "volar",
+    "title": "Palmare Neigung des distalen Radius",
+    "region": "Handgelenk",
+    "group": "Handgelenk",
+    "aliases": "Radius Palmarneigung volar tilt dorsal tilt Handwurzel",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": -90,
+        "maximum": 90
+      }
+    ],
+    "technique": "Winkel zwischen dem Lot auf die Radiuslängsachse und der Linie der palmaren und dorsalen Gelenkflächenkante messen. Palmar positiv, dorsal negativ.",
+    "meaning": "Quantifiziert die sagittale Stellung der distalen Radiusgelenkfläche.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Streng seitliche Handgelenksaufnahme in Neutralstellung.",
+        "reference": "Orientierungsbereich 6° bis 16°.",
+        "rules": {
+          "lowerInclusive": false,
+          "upperInclusive": false,
+          "low": 6,
+          "lowText": "Unter der angegebenen Orientierungsgrenze.",
+          "high": 16,
+          "highText": "Über der angegebenen Orientierungsgrenze."
+        },
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9038308/"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "radial",
+    "title": "Radiale Inklination",
+    "region": "Handgelenk",
+    "group": "Handgelenk",
+    "aliases": "Radiale Inklination Radius radial inclination Handwurzel",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": -45,
+        "maximum": 70
+      }
+    ],
+    "technique": "Radiusstyloidspitze mit der ulnaren Ecke der distalen Radiusgelenkfläche verbinden. Winkel dieser Linie zum Lot auf die Radiuslängsachse messen.",
+    "meaning": "Quantifiziert die koronare Neigung der distalen Radiusgelenkfläche.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Handgelenk p.a. in Neutralstellung, ohne Belastung.",
+        "reference": "Orientierungsbereich 19° bis 25°.",
+        "rules": {
+          "lowerInclusive": false,
+          "upperInclusive": false,
+          "low": 19,
+          "lowText": "Unter der angegebenen Orientierungsgrenze.",
+          "high": 25,
+          "highText": "Über der angegebenen Orientierungsgrenze."
+        },
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9038308/"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "mc5",
+    "title": "Kopf-Hals-Angulation des Metakarpale V",
+    "region": "Hand",
+    "group": "Hand",
+    "aliases": "MHK V MC5 Metakarpale Mittelhand Boxer angulation",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": 0,
+        "maximum": 140
+      }
+    ],
+    "technique": "Markraumachse des Metakarpalschaftes einzeichnen. Zweite Linie vom Zentrum des Metakarpalköpfchens zum Frakturspalt ziehen. Winkel im Seitbild ohne Abzug eingeben.",
+    "meaning": "Die Messung quantifiziert eine sagittale Fehlstellung. Fingerrotation separat klinisch prüfen.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Streng seitliche, auf den 5. Strahl zentrierte Aufnahme.",
+        "reference": "Physiologischer Kopf-Hals-Winkel etwa 15°. Bei der Beurteilung die verwendete Achsendefinition angeben.",
+        "rules": null,
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen.",
+        "descriptiveAssessment": "Die Messung quantifiziert eine sagittale Fehlstellung. Fingerrotation separat klinisch prüfen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5078834/#Fig4"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "thumbUCL",
+    "title": "Daumen-MCP: Dislokation des ulnaren Kollateralbands",
+    "region": "Hand",
+    "group": "Hand",
+    "aliases": "Daumen UCL ulnar collateral Stener Skidaumen MCP Hand Finger",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessene Strecke",
+        "unit": "mm",
+        "minimum": 0,
+        "maximum": 50
+      }
+    ],
+    "technique": "Nur bei kompletter distaler Ruptur. Abstand vom dislozierten distalen Bandstumpf zum Insertionareal an der Grundphalanxbasis messen.",
+    "meaning": "Größere Dislokation bei kompletter Ruptur. Lage zur Adduktorenaponeurose separat prüfen.",
+    "profiles": [
+      {
+        "modality": "MR",
+        "setup": "Hochauflösende koronare MRT des Daumen-MCP.",
+        "reference": "Orientierungsgrenze > 3 mm.",
+        "rules": {
+          "lowerInclusive": false,
+          "upperInclusive": false,
+          "high": 3,
+          "highText": "Größere Dislokation bei kompletter Ruptur. Lage zur Adduktorenaponeurose separat prüfen."
+        },
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10668926/"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "mad",
+    "title": "Mechanische Achsabweichung (MAD)",
+    "region": "Ganzbeinaufnahmen",
+    "group": "Ganzbeinaufnahmen",
+    "aliases": "MAD mechanical axis deviation Belastungsachse Mikulicz Ganzbein Beinachse",
+    "formula": "direct",
+    "diagram": "mad",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessene Strecke",
+        "unit": "mm",
+        "minimum": -200,
+        "maximum": 200
+      }
+    ],
+    "technique": "Hüftkopfzentrum und Zentrum des oberen Sprunggelenks verbinden. Senkrechten Abstand des Kniezentrums zu dieser Linie messen. Achse lateral positiv, medial negativ.",
+    "meaning": "Positive Werte zeigen eine lateral, negative eine medial am Kniezentrum vorbeiziehende Belastungsachse.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Kalibrierte a.p.-Ganzbeinaufnahme im Stand, Patellae nach vorn.",
+        "reference": "0 mm entspricht dem Kniezentrum. Üblicherweise verläuft die Achse leicht medial.",
+        "rules": null,
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen.",
+        "descriptiveAssessment": "Positive Werte zeigen eine lateral, negative eine medial am Kniezentrum vorbeiziehende Belastungsachse."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8246117/"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "jlca",
+    "title": "Gelenklinien-Konvergenzwinkel (JLCA)",
+    "region": "Ganzbeinaufnahmen",
+    "group": "Ganzbeinaufnahmen",
+    "aliases": "JLCA joint line convergence Ganzbein Beinachse",
+    "formula": "direct",
+    "diagram": "jlca",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": -45,
+        "maximum": 45
+      }
+    ],
+    "technique": "Tangenten an die distalen Femurkondylen und an beide Tibiaplateaus ziehen. Winkel messen. Mediale Konvergenz positiv, laterale negativ.",
+    "meaning": "Vermehrte mediale Konvergenz kann durch Gelenkspaltasymmetrie oder Bandlaxität bedingt sein.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Kalibrierte a.p.-Ganzbeinaufnahme im Stand, Patellae nach vorn.",
+        "reference": "Orientierungsbereich 0° bis 1°.",
+        "rules": {
+          "lowerInclusive": false,
+          "upperInclusive": false,
+          "low": 0,
+          "lowText": "Unter der angegebenen Orientierungsgrenze.",
+          "high": 1,
+          "highText": "Vermehrte mediale Konvergenz kann durch Gelenkspaltasymmetrie oder Bandlaxität bedingt sein."
+        },
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8246117/"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "lld",
+    "title": "Anatomische Beinlängendifferenz",
+    "region": "Ganzbeinaufnahmen",
+    "group": "Ganzbeinaufnahmen",
+    "aliases": "LLD Beinlängenmessung Beinlängendifferenz Ganzbein scanogram",
+    "formula": "difference",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Rechtes Bein",
+        "unit": "mm",
+        "minimum": 100,
+        "maximum": 1500
+      },
+      {
+        "id": "B",
+        "label": "B · Linkes Bein",
+        "unit": "mm",
+        "minimum": 100,
+        "maximum": 1500
+      }
+    ],
+    "technique": "Beidseits den vertikalen Abstand vom höchsten Punkt des Hüftkopfes zum Zentrum des Tibia-Plafonds messen. Ausgabe rechts minus links.",
+    "meaning": "Erfasst den Unterschied der anatomischen Beinlängen im Bild.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Kalibrierte a.p.-Ganzbeinaufnahme im Stand, Patellae nach vorn.",
+        "reference": "0 mm entspricht gleichen Längen. Positiv bedeutet rechts länger, negativ links länger.",
+        "rules": null,
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen.",
+        "descriptiveAssessment": "Erfasst den Unterschied der anatomischen Beinlängen im Bild."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13369436/"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "femVersion",
+    "title": "Femurversion nach Reikerås",
+    "region": "Rotationsaufnahmen",
+    "group": "Rotationsaufnahmen",
+    "aliases": "Femurantetorsion Femuranteversion Antetorsionswinkel Hüftgelenk Femur CT MRT Reikeras",
+    "otherRegions": [
+      "Hüfte"
+    ],
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": -90,
+        "maximum": 90
+      }
+    ],
+    "technique": "Kopfzentrum und Halsmitte auf axialen Ebenen überlagern. Halsmitte auf Höhe paralleler vorderer und hinterer Halskortikalis wählen. Winkel zur Hinterkante der Femurkondylen. Antetorsion positiv.",
+    "meaning": "Maß für die Rotation des Schenkelhalses relativ zum distalen Femur.",
+    "profiles": [
+      {
+        "modality": "CT",
+        "setup": "Rotationsprotokoll mit gleich ausgerichteten axialen Serien an Hüfte und Knie.",
+        "reference": "Protokoll-, Lagerungs- und methodenabhängig. Bei Seitenvergleich dieselben Landmarken nutzen.",
+        "rules": null,
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen.",
+        "descriptiveAssessment": "Maß für die Rotation des Schenkelhalses relativ zum distalen Femur."
+      },
+      {
+        "modality": "MR",
+        "setup": "Rotationsprotokoll mit gleich ausgerichteten axialen Serien an Hüfte und Knie.",
+        "reference": "Protokoll-, Lagerungs- und methodenabhängig. Bei Seitenvergleich dieselben Landmarken nutzen.",
+        "rules": null,
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen.",
+        "descriptiveAssessment": "Maß für die Rotation des Schenkelhalses relativ zum distalen Femur."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13443393/#Fig2"
+      },
+      {
+        "label": "Ergänzende Fachquelle",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40476016/"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "kneeRotation",
+    "title": "Tibiofemoraler Rotationswinkel",
+    "region": "Rotationsaufnahmen",
+    "group": "Rotationsaufnahmen",
+    "aliases": "tibiofemoral rotation Knierotation Patella Rotationsprofil Knie",
+    "otherRegions": [
+      "Knie"
+    ],
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": -90,
+        "maximum": 90
+      }
+    ],
+    "technique": "Dorsale knöcherne Femurkondylentangente und dorsale Tangente am proximalen Tibiaplateau in axialen Schichten bestimmen. Tibia-Außenrotation relativ zum Femur positiv.",
+    "meaning": "Beschreibt die relative Stellung im Knie. Flexion beeinflusst den Messwert.",
+    "profiles": [
+      {
+        "modality": "CT",
+        "setup": "Axiale Knieaufnahmen. Flexion und Beinstellung dokumentieren.",
+        "reference": "Protokoll-, Lagerungs- und methodenabhängig. Bei Seitenvergleich dieselben Landmarken nutzen.",
+        "rules": null,
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen.",
+        "descriptiveAssessment": "Beschreibt die relative Stellung im Knie. Flexion beeinflusst den Messwert."
+      },
+      {
+        "modality": "MR",
+        "setup": "Axiale Knieaufnahmen. Flexion und Beinstellung dokumentieren.",
+        "reference": "Protokoll-, Lagerungs- und methodenabhängig. Bei Seitenvergleich dieselben Landmarken nutzen.",
+        "rules": null,
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen.",
+        "descriptiveAssessment": "Beschreibt die relative Stellung im Knie. Flexion beeinflusst den Messwert."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://doi.org/10.1177/23259671241304754"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "tibTorsion",
+    "title": "Tibiatorsion (bimalleoläre Methode)",
+    "region": "Rotationsaufnahmen",
+    "group": "Rotationsaufnahmen",
+    "aliases": "Tibiatorsion bimalleolär Rotationsprofil OSG Sprunggelenk Knöchel",
+    "otherRegions": [
+      "OSG"
+    ],
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": -90,
+        "maximum": 90
+      }
+    ],
+    "technique": "Proximal dorsale Tibiakondylentangente ziehen. Distal knapp unter dem Plafond die Mittelpunkte der Malleolen verbinden. Winkel beider Achsen. Distale Außenrotation positiv.",
+    "meaning": "Maß für den Unterschied zwischen proximaler und distaler Tibiarotation.",
+    "profiles": [
+      {
+        "modality": "CT",
+        "setup": "Rotationsprotokoll mit gleich ausgerichteten axialen Serien an Knie und OSG.",
+        "reference": "Protokoll-, Lagerungs- und methodenabhängig. Bei Seitenvergleich dieselben Landmarken nutzen.",
+        "rules": null,
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen.",
+        "descriptiveAssessment": "Maß für den Unterschied zwischen proximaler und distaler Tibiarotation."
+      },
+      {
+        "modality": "MR",
+        "setup": "Rotationsprotokoll mit gleich ausgerichteten axialen Serien an Knie und OSG.",
+        "reference": "Protokoll-, Lagerungs- und methodenabhängig. Bei Seitenvergleich dieselben Landmarken nutzen.",
+        "rules": null,
+        "within": "Innerhalb der angegebenen Orientierungsgrenzen.",
+        "descriptiveAssessment": "Maß für den Unterschied zwischen proximaler und distaler Tibiarotation."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fachquelle · Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7930175/#Fig2"
+      },
+      {
+        "label": "Ergänzende Fachquelle",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11836740/"
+      }
+    ],
+    "ageGroup": "all"
+  }
+]

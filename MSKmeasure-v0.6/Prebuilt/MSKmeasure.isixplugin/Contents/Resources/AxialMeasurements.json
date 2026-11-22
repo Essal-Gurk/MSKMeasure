@@ -1,0 +1,1276 @@
+[
+  {
+    "id": "hindMoment",
+    "title": "Rückfuß-Hebelarm nach Saltzman",
+    "region": "Rückfuß und USG",
+    "group": "Rückfuß und USG",
+    "otherRegions": [],
+    "diagram": "hindMoment",
+    "ageGroup": "all",
+    "aliases": "hindMoment Rückfuß-Hebelarm nach Saltzman Rückfuß und USG",
+    "technique": "Distale Tibiaschaftachse verlängern. Kürzesten Abstand zum tiefsten Kalkaneuskontaktpunkt messen. Ferse lateral der Achse positiv, medial negativ.",
+    "meaning": "Valgus oder Varus im Kontext von Fußstellung und Belastung beschreiben.",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessene Distanz",
+        "unit": "mm",
+        "minimum": -100,
+        "maximum": 100
+      }
+    ],
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Belastete Rückfußaufnahme nach Saltzman. Beide Fersen belastet, Strahlengang 20° zur Horizontalen.",
+        "reference": "Messwert im belasteten Saltzman-Profil. Normverteilung und Grenzwerte sind aufnahmetechnisch abhängig.",
+        "rules": null,
+        "within": "Protokoll- und lagerungsabhängig. Referenz individuell und im Verlauf prüfen.",
+        "descriptiveAssessment": "Valgus oder Varus im Kontext von Fußstellung und Belastung beschreiben."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Quelle und Messmethode",
+        "url": "https://doi.org/10.1177/107110079501600911"
+      }
+    ]
+  },
+  {
+    "id": "hindAngle",
+    "title": "Belasteter Rückfuß-Achswinkel",
+    "region": "Rückfuß und USG",
+    "group": "Rückfuß und USG",
+    "otherRegions": [],
+    "ageGroup": "all",
+    "aliases": "hindAngle Belasteter Rückfuß-Achswinkel Rückfuß und USG",
+    "technique": "Winkel zwischen distaler Tibiaschaftachse und Längsachse der Kalkaneustuberositas messen. Valgus positiv, Varus negativ. Achsendefinition im Verlauf beibehalten.",
+    "meaning": "Valgus oder Varus im Kontext von Fußstellung und Belastung beschreiben.",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": -90,
+        "maximum": 90
+      }
+    ],
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Belastete Rückfußaufnahme nach Saltzman. Beide Fersen belastet, Strahlengang 20° zur Horizontalen.",
+        "reference": "Protokoll- und lagerungsabhängig. Referenz individuell und im Verlauf prüfen.",
+        "rules": null,
+        "within": "Protokoll- und lagerungsabhängig. Referenz individuell und im Verlauf prüfen.",
+        "descriptiveAssessment": "Valgus oder Varus im Kontext von Fußstellung und Belastung beschreiben."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Quelle und Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9522738/"
+      }
+    ]
+  },
+  {
+    "id": "talocalc",
+    "title": "Lateraler Talokalkaneuswinkel",
+    "region": "Rückfuß und USG",
+    "group": "Rückfuß und USG",
+    "otherRegions": [
+      "Fuß"
+    ],
+    "ageGroup": "all",
+    "aliases": "talocalc Lateraler Talokalkaneuswinkel Rückfuß und USG",
+    "technique": "Winkel zwischen Talushalsachse und Tangente an der Kalkaneusunterfläche messen.",
+    "meaning": "Winkel beschreibt die sagittale Beziehung zwischen Talus und Kalkaneus.",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": 0,
+        "maximum": 100
+      }
+    ],
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Seitliche belastete Fußaufnahme.",
+        "reference": "Bei Erwachsenen etwa 25–40°. Bei Kindern altersabhängige Referenz erforderlich.",
+        "rules": null,
+        "within": "Protokoll- und lagerungsabhängig. Referenz individuell und im Verlauf prüfen.",
+        "descriptiveAssessment": "Winkel beschreibt die sagittale Beziehung zwischen Talus und Kalkaneus."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Quelle und Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13198512/"
+      }
+    ]
+  },
+  {
+    "id": "radBow",
+    "title": "Relative Radiuskrümmung",
+    "region": "Unterarm",
+    "group": "Unterarm",
+    "otherRegions": [],
+    "diagram": "radBow",
+    "ageGroup": "all",
+    "aliases": "radBow Relative Radiuskrümmung Unterarm",
+    "technique": "Grundlinie von der Mitte der Tuberositas radii zum ulnarsten Punkt des distalen Radius ziehen. Maximale Lotdistanz zur Radiuskurve als A messen, Grundlinienlänge als B. A ÷ B × 100.",
+    "meaning": "Radiuskrümmung beeinflusst die Unterarmrotation. Für die Einordnung Alter, Projektion und Gegenseite beachten.",
+    "formula": "percent",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Maximale Lotdistanz",
+        "unit": "mm",
+        "minimum": 0,
+        "maximum": 100
+      },
+      {
+        "id": "B",
+        "label": "B · Grundlinienlänge",
+        "unit": "mm",
+        "minimum": 1,
+        "maximum": 1000
+      }
+    ],
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Streng a.p. des gesamten Unterarms mit Ellenbogen und Handgelenk.",
+        "reference": "In einer Kinder-Normstudie Mittelwert 7,21%, Maximum 10%. Bei Erwachsenen Gegenseite als Referenz verwenden.",
+        "rules": null,
+        "within": "Protokoll- und lagerungsabhängig. Referenz individuell und im Verlauf prüfen.",
+        "descriptiveAssessment": "Radiuskrümmung beeinflusst die Unterarmrotation. Für die Einordnung Alter, Projektion und Gegenseite beachten."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Quelle und Messmethode",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15446536/"
+      }
+    ]
+  },
+  {
+    "id": "radSite",
+    "title": "Lage der maximalen Radiuskrümmung",
+    "region": "Unterarm",
+    "group": "Unterarm",
+    "otherRegions": [],
+    "diagram": "radSite",
+    "ageGroup": "all",
+    "aliases": "radSite Lage der maximalen Radiuskrümmung Unterarm",
+    "technique": "Gleiche Grundlinie wie bei der relativen Radiuskrümmung. Von der Tuberositas radii bis zum Fußpunkt des maximalen Krümmungslots A messen. Gesamtlänge B. A ÷ B × 100.",
+    "meaning": "Radiuskrümmung beeinflusst die Unterarmrotation. Für die Einordnung Alter, Projektion und Gegenseite beachten.",
+    "formula": "percent",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Abstand von proximal bis zum Lotfuß",
+        "unit": "mm",
+        "minimum": 0,
+        "maximum": 1000
+      },
+      {
+        "id": "B",
+        "label": "B · Grundlinienlänge",
+        "unit": "mm",
+        "minimum": 1,
+        "maximum": 1000
+      }
+    ],
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Streng a.p. des gesamten Unterarms mit Ellenbogen und Handgelenk.",
+        "reference": "Kinderstudie etwa 60% der Grundlinie von proximal. Verlauf und Gegenseite vergleichen.",
+        "rules": null,
+        "within": "Protokoll- und lagerungsabhängig. Referenz individuell und im Verlauf prüfen.",
+        "descriptiveAssessment": "Radiuskrümmung beeinflusst die Unterarmrotation. Für die Einordnung Alter, Projektion und Gegenseite beachten."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Quelle und Messmethode",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15446536/"
+      }
+    ]
+  },
+  {
+    "id": "forearmAPAngle",
+    "title": "Unterarm-Achsabweichung a.p.",
+    "region": "Unterarm",
+    "group": "Unterarm",
+    "otherRegions": [],
+    "ageGroup": "all",
+    "aliases": "forearmAPAngle Unterarm-Achsabweichung a.p. Unterarm",
+    "technique": "An Radius oder Ulna proximale und distale Schaftachse über je zwei Markraummittelpunkte bestimmen. Abweichung von geradem Verlauf messen. Knochen und Richtung im Befund nennen.",
+    "meaning": "Achsabweichung quantifiziert. Klinische Rotation und Nachbargelenke zusätzlich beurteilen.",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": 0,
+        "maximum": 180
+      }
+    ],
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Streng a.p. des gesamten Unterarms mit Ellenbogen und Handgelenk.",
+        "reference": "Protokoll- und lagerungsabhängig. Referenz individuell und im Verlauf prüfen.",
+        "rules": null,
+        "within": "Protokoll- und lagerungsabhängig. Referenz individuell und im Verlauf prüfen.",
+        "descriptiveAssessment": "Achsabweichung quantifiziert. Klinische Rotation und Nachbargelenke zusätzlich beurteilen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Quelle und Messmethode",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1522093/"
+      }
+    ]
+  },
+  {
+    "id": "forearmLatAngle",
+    "title": "Unterarm-Achsabweichung seitlich",
+    "region": "Unterarm",
+    "group": "Unterarm",
+    "otherRegions": [],
+    "ageGroup": "all",
+    "aliases": "forearmLatAngle Unterarm-Achsabweichung seitlich Unterarm",
+    "technique": "Proximale und distale Schaftachse des betroffenen Knochens über Markraummittelpunkte ziehen. Abweichung von geradem Verlauf messen. Apexrichtung dokumentieren.",
+    "meaning": "Achsabweichung quantifiziert. Klinische Rotation und Nachbargelenke zusätzlich beurteilen.",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": 0,
+        "maximum": 180
+      }
+    ],
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Streng seitlich des gesamten Unterarms. Rotation kontrollieren.",
+        "reference": "Protokoll- und lagerungsabhängig. Referenz individuell und im Verlauf prüfen.",
+        "rules": null,
+        "within": "Protokoll- und lagerungsabhängig. Referenz individuell und im Verlauf prüfen.",
+        "descriptiveAssessment": "Achsabweichung quantifiziert. Klinische Rotation und Nachbargelenke zusätzlich beurteilen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Quelle und Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4152429/"
+      }
+    ]
+  },
+  {
+    "id": "ulnaBow",
+    "title": "Ulnar Bow Sign",
+    "region": "Unterarm",
+    "group": "Unterarm",
+    "otherRegions": [],
+    "diagram": "ulnaBow",
+    "ageGroup": "pediatric",
+    "aliases": "ulnaBow Ulnar Bow Sign Unterarm",
+    "technique": "Linie entlang der dorsalen Ulna vom Olekranon zum distalen Ende ziehen. Maximale dorsale Abweichung der Ulna von der Linie messen. Radiokapitelläre Ausrichtung mitprüfen.",
+    "meaning": "Befund zur Erkennung einer plastischen Ulnadeformierung. Lage des Radiuskopfes mitbeurteilen.",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessene Distanz",
+        "unit": "mm",
+        "minimum": 0,
+        "maximum": 100
+      }
+    ],
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Streng seitlich des gesamten Unterarms. Rotation kontrollieren.",
+        "reference": "Bei Kindern kann eine dorsale Abweichung > 1 mm auf plastische Deformierung hinweisen.",
+        "rules": null,
+        "within": "Protokoll- und lagerungsabhängig. Referenz individuell und im Verlauf prüfen.",
+        "descriptiveAssessment": "Befund zur Erkennung einer plastischen Ulnadeformierung. Lage des Radiuskopfes mitbeurteilen.",
+        "pediatricReference": true
+      }
+    ],
+    "sources": [
+      {
+        "label": "Quelle und Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9069855/"
+      }
+    ]
+  },
+  {
+    "id": "chamberlain",
+    "title": "Densstand zur Chamberlain-Linie",
+    "region": "Kopf und kraniozervikaler Übergang",
+    "group": "Kopf und kraniozervikaler Übergang",
+    "otherRegions": [
+      "HWS"
+    ],
+    "ageGroup": "all",
+    "aliases": "chamberlain Densstand zur Chamberlain-Linie Kopf und kraniozervikaler Übergang",
+    "technique": "Harten Gaumenhinterrand mit Opisthion verbinden. Lotabstand der Densspitze messen. Oberhalb der Linie positiv, unterhalb negativ.",
+    "meaning": "Kraniale Überschreitung kann auf basile Invagination hinweisen. Gesamte kraniozervikale Anatomie mitbeurteilen.",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessene Distanz",
+        "unit": "mm",
+        "minimum": -50,
+        "maximum": 50
+      }
+    ],
+    "profiles": [
+      {
+        "modality": "CT",
+        "setup": "Midsagittale Rekonstruktion mit eindeutig sichtbaren Landmarken.",
+        "reference": "Densspitze > 5 mm oberhalb als Hinweis auf basile Invagination.",
+        "rules": {
+          "low": null,
+          "high": 5,
+          "lowerInclusive": false,
+          "upperInclusive": false,
+          "highText": "Referenzgrenze erreicht oder überschritten. Kraniale Überschreitung kann auf basile Invagination hinweisen. Gesamte kraniozervikale Anatomie mitbeurteilen."
+        },
+        "within": "Innerhalb der genannten Orientierungsgrenze.",
+        "descriptiveAssessment": "Kraniale Überschreitung kann auf basile Invagination hinweisen. Gesamte kraniozervikale Anatomie mitbeurteilen."
+      },
+      {
+        "modality": "MR",
+        "setup": "Midsagittale Rekonstruktion mit eindeutig sichtbaren Landmarken.",
+        "reference": "Densspitze > 5 mm oberhalb als Hinweis auf basile Invagination.",
+        "rules": {
+          "low": null,
+          "high": 5,
+          "lowerInclusive": false,
+          "upperInclusive": false,
+          "highText": "Referenzgrenze erreicht oder überschritten. Kraniale Überschreitung kann auf basile Invagination hinweisen. Gesamte kraniozervikale Anatomie mitbeurteilen."
+        },
+        "within": "Innerhalb der genannten Orientierungsgrenze.",
+        "descriptiveAssessment": "Kraniale Überschreitung kann auf basile Invagination hinweisen. Gesamte kraniozervikale Anatomie mitbeurteilen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Quelle und Messmethode",
+        "url": "https://pubs.rsna.org/doi/10.1148/rg.240075"
+      }
+    ]
+  },
+  {
+    "id": "mcrae",
+    "title": "Densstand zur McRae-Linie",
+    "region": "Kopf und kraniozervikaler Übergang",
+    "group": "Kopf und kraniozervikaler Übergang",
+    "otherRegions": [
+      "HWS"
+    ],
+    "ageGroup": "all",
+    "aliases": "mcrae Densstand zur McRae-Linie Kopf und kraniozervikaler Übergang",
+    "technique": "Basion und Opisthion verbinden. Lotabstand der Densspitze messen. Oberhalb positiv, unterhalb negativ.",
+    "meaning": "Kraniale Überschreitung kann auf basile Invagination hinweisen. Gesamte kraniozervikale Anatomie mitbeurteilen.",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessene Distanz",
+        "unit": "mm",
+        "minimum": -50,
+        "maximum": 50
+      }
+    ],
+    "profiles": [
+      {
+        "modality": "CT",
+        "setup": "Midsagittale Rekonstruktion mit eindeutig sichtbaren Landmarken.",
+        "reference": "Die Densspitze sollte die Linie nicht nach kranial überschreiten.",
+        "rules": {
+          "low": null,
+          "high": 0,
+          "lowerInclusive": false,
+          "upperInclusive": false,
+          "highText": "Referenzgrenze erreicht oder überschritten. Kraniale Überschreitung kann auf basile Invagination hinweisen. Gesamte kraniozervikale Anatomie mitbeurteilen."
+        },
+        "within": "Innerhalb der genannten Orientierungsgrenze.",
+        "descriptiveAssessment": "Kraniale Überschreitung kann auf basile Invagination hinweisen. Gesamte kraniozervikale Anatomie mitbeurteilen."
+      },
+      {
+        "modality": "MR",
+        "setup": "Midsagittale Rekonstruktion mit eindeutig sichtbaren Landmarken.",
+        "reference": "Die Densspitze sollte die Linie nicht nach kranial überschreiten.",
+        "rules": {
+          "low": null,
+          "high": 0,
+          "lowerInclusive": false,
+          "upperInclusive": false,
+          "highText": "Referenzgrenze erreicht oder überschritten. Kraniale Überschreitung kann auf basile Invagination hinweisen. Gesamte kraniozervikale Anatomie mitbeurteilen."
+        },
+        "within": "Innerhalb der genannten Orientierungsgrenze.",
+        "descriptiveAssessment": "Kraniale Überschreitung kann auf basile Invagination hinweisen. Gesamte kraniozervikale Anatomie mitbeurteilen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Quelle und Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13212804/"
+      }
+    ]
+  },
+  {
+    "id": "adi",
+    "title": "Vorderer Atlantodentalabstand (ADI)",
+    "region": "HWS",
+    "group": "HWS",
+    "otherRegions": [],
+    "ageGroup": "all",
+    "aliases": "adi Vorderer Atlantodentalabstand (ADI) HWS",
+    "technique": "Zwischen Hinterkortikalis des vorderen Atlasbogens und vorderer Denskortikalis messen.",
+    "meaning": "Vergrößerter ADI kann auf atlantoaxiale Instabilität hinweisen.",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessene Distanz",
+        "unit": "mm",
+        "minimum": 0,
+        "maximum": 30
+      }
+    ],
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Seitliche HWS-Aufnahme im Stand in Neutralstellung.",
+        "reference": "Röntgenreferenz ≤ 3 mm bei Erwachsenen, ≤ 5 mm bei Kindern. CT-Grenzen sind enger.",
+        "rules": {
+          "low": null,
+          "high": 3,
+          "lowerInclusive": false,
+          "upperInclusive": false,
+          "highText": "Referenzgrenze erreicht oder überschritten. Vergrößerter ADI kann auf atlantoaxiale Instabilität hinweisen."
+        },
+        "within": "Innerhalb der genannten Orientierungsgrenze.",
+        "descriptiveAssessment": "Vergrößerter ADI kann auf atlantoaxiale Instabilität hinweisen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Quelle und Messmethode",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK617531/"
+      }
+    ]
+  },
+  {
+    "id": "padi",
+    "title": "Hinterer Atlantodentalabstand (PADI)",
+    "region": "HWS",
+    "group": "HWS",
+    "otherRegions": [],
+    "ageGroup": "adult",
+    "aliases": "padi Hinterer Atlantodentalabstand (PADI) HWS",
+    "technique": "Zwischen Denshinterkortikalis und Vorderkortikalis des hinteren Atlasbogens messen.",
+    "meaning": "Ein verminderter PADI zeigt reduzierten knöchernen Raum für neurale Strukturen.",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessene Distanz",
+        "unit": "mm",
+        "minimum": 0,
+        "maximum": 50
+      }
+    ],
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Seitliche HWS-Aufnahme im Stand in Neutralstellung.",
+        "reference": "< 14 mm als Hinweis auf verminderten knöchernen Reserveraum. Weichteile im MRT beurteilen.",
+        "rules": {
+          "low": 14,
+          "high": null,
+          "lowerInclusive": false,
+          "upperInclusive": false,
+          "lowText": "Unterhalb der angegebenen Referenzgrenze. Ein verminderter PADI zeigt reduzierten knöchernen Raum für neurale Strukturen."
+        },
+        "within": "Innerhalb der genannten Orientierungsgrenze.",
+        "descriptiveAssessment": "Ein verminderter PADI zeigt reduzierten knöchernen Raum für neurale Strukturen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Quelle und Messmethode",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15252088/"
+      }
+    ]
+  },
+  {
+    "id": "cervLordosis",
+    "title": "Zervikale Lordose C2–C7",
+    "region": "HWS",
+    "group": "HWS",
+    "otherRegions": [],
+    "ageGroup": "all",
+    "aliases": "cervLordosis Zervikale Lordose C2–C7 HWS",
+    "technique": "Cobb-Winkel zwischen den Unterplatten von C2 und C7 messen. Lordose positiv, Kyphose negativ.",
+    "meaning": "Regionale Krümmung mit Beckenmorphologie, Gesamtbalance und Lagerung zusammen beurteilen.",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": -90,
+        "maximum": 120
+      }
+    ],
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Seitliche HWS-Aufnahme im Stand in Neutralstellung.",
+        "reference": "Protokoll- und lagerungsabhängig. Referenz individuell und im Verlauf prüfen.",
+        "rules": null,
+        "within": "Protokoll- und lagerungsabhängig. Referenz individuell und im Verlauf prüfen.",
+        "descriptiveAssessment": "Regionale Krümmung mit Beckenmorphologie, Gesamtbalance und Lagerung zusammen beurteilen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Quelle und Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6790735/"
+      }
+    ]
+  },
+  {
+    "id": "cervSVA",
+    "title": "Zervikale sagittale Vertikalachse C2–C7",
+    "region": "HWS",
+    "group": "HWS",
+    "otherRegions": [],
+    "ageGroup": "adult",
+    "aliases": "cervSVA Zervikale sagittale Vertikalachse C2–C7 HWS",
+    "technique": "Horizontale Distanz zwischen Lot durch C2-Zentrum und posterosuperiorer Ecke von C7 messen. C2 ventral positiv.",
+    "meaning": "Vergrößerter positiver Wert spricht für eine sagittale Fehlbalance im angegebenen Messprofil.",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessene Distanz",
+        "unit": "mm",
+        "minimum": -100,
+        "maximum": 200
+      }
+    ],
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Seitliche HWS-Aufnahme im Stand in Neutralstellung.",
+        "reference": "≥ 40 mm wird in der adulten Deformitätsbeurteilung als auffällig verwendet.",
+        "rules": {
+          "low": null,
+          "high": 40,
+          "lowerInclusive": false,
+          "upperInclusive": true,
+          "highText": "Referenzgrenze erreicht oder überschritten. Vergrößerter positiver Wert spricht für eine sagittale Fehlbalance im angegebenen Messprofil."
+        },
+        "within": "Innerhalb der genannten Orientierungsgrenze.",
+        "descriptiveAssessment": "Vergrößerter positiver Wert spricht für eine sagittale Fehlbalance im angegebenen Messprofil."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Quelle und Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6790735/"
+      }
+    ]
+  },
+  {
+    "id": "thorKyphosis",
+    "title": "Thorakale Kyphose T5–T12",
+    "region": "BWS",
+    "group": "BWS",
+    "otherRegions": [],
+    "ageGroup": "all",
+    "aliases": "thorKyphosis Thorakale Kyphose T5–T12 BWS",
+    "technique": "Cobb-Winkel zwischen T5-Oberplatte und T12-Unterplatte messen. Kyphose positiv, Lordose negativ.",
+    "meaning": "Regionale Krümmung mit Beckenmorphologie, Gesamtbalance und Lagerung zusammen beurteilen.",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": -90,
+        "maximum": 180
+      }
+    ],
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Seitliche Wirbelsäulenganzaufnahme im Stand mit S1 und beiden Hüftköpfen.",
+        "reference": "T5–T12 nach SRS-Handbuch etwa 10–40°. Endwirbel und Alter beeinflussen den Vergleich.",
+        "rules": null,
+        "within": "Protokoll- und lagerungsabhängig. Referenz individuell und im Verlauf prüfen.",
+        "descriptiveAssessment": "Regionale Krümmung mit Beckenmorphologie, Gesamtbalance und Lagerung zusammen beurteilen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Quelle und Messmethode",
+        "url": "https://www.srs.org/Files/Research/Manuals-and-Publications/sdsg-radiographic-measuremnt-manual.pdf"
+      }
+    ]
+  },
+  {
+    "id": "cobb",
+    "title": "Koronarer Cobb-Winkel",
+    "region": "BWS",
+    "group": "BWS",
+    "otherRegions": [
+      "LWS",
+      "HWS"
+    ],
+    "ageGroup": "all",
+    "aliases": "cobb Koronarer Cobb-Winkel BWS",
+    "technique": "Am stärksten geneigte Endwirbel wählen. Winkel zwischen Oberplatte des kranialen und Unterplatte des kaudalen Endwirbels messen. Endwirbel und Konvexität dokumentieren.",
+    "meaning": "Koronare Wirbelsäulenkrümmung quantifiziert. Verlauf mit gleichen Endwirbeln vergleichen.",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": 0,
+        "maximum": 180
+      }
+    ],
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Koronare Ebene. Standaufnahme als Referenz. Bei CT/MRT die liegende Lagerung dokumentieren.",
+        "reference": "Standreferenz ≥ 10° zur Definition einer Skoliose. CT/MRT im Liegen nicht direkt gleichsetzen.",
+        "rules": {
+          "low": null,
+          "high": 10,
+          "lowerInclusive": false,
+          "upperInclusive": true,
+          "highText": "Referenzgrenze erreicht oder überschritten. Koronare Wirbelsäulenkrümmung quantifiziert. Verlauf mit gleichen Endwirbeln vergleichen."
+        },
+        "within": "Innerhalb der genannten Orientierungsgrenze.",
+        "descriptiveAssessment": "Koronare Wirbelsäulenkrümmung quantifiziert. Verlauf mit gleichen Endwirbeln vergleichen.",
+        "minimumReferenceAge": 0
+      },
+      {
+        "modality": "CT",
+        "setup": "Koronare Ebene. Standaufnahme als Referenz. Bei CT/MRT die liegende Lagerung dokumentieren.",
+        "reference": "Standreferenz ≥ 10° zur Definition einer Skoliose. CT/MRT im Liegen nicht direkt gleichsetzen.",
+        "rules": null,
+        "within": "Protokoll- und lagerungsabhängig. Referenz individuell und im Verlauf prüfen.",
+        "descriptiveAssessment": "Koronare Wirbelsäulenkrümmung quantifiziert. Verlauf mit gleichen Endwirbeln vergleichen.",
+        "minimumReferenceAge": 0
+      },
+      {
+        "modality": "MR",
+        "setup": "Koronare Ebene. Standaufnahme als Referenz. Bei CT/MRT die liegende Lagerung dokumentieren.",
+        "reference": "Standreferenz ≥ 10° zur Definition einer Skoliose. CT/MRT im Liegen nicht direkt gleichsetzen.",
+        "rules": null,
+        "within": "Protokoll- und lagerungsabhängig. Referenz individuell und im Verlauf prüfen.",
+        "descriptiveAssessment": "Koronare Wirbelsäulenkrümmung quantifiziert. Verlauf mit gleichen Endwirbeln vergleichen.",
+        "minimumReferenceAge": 0
+      }
+    ],
+    "sources": [
+      {
+        "label": "Quelle und Messmethode",
+        "url": "https://www.srs.org/Education/Glossary"
+      }
+    ]
+  },
+  {
+    "id": "lumbarLordosis",
+    "title": "Lumbale Lordose L1–S1",
+    "region": "LWS",
+    "group": "LWS",
+    "otherRegions": [],
+    "ageGroup": "all",
+    "aliases": "lumbarLordosis Lumbale Lordose L1–S1 LWS",
+    "technique": "Cobb-Winkel zwischen L1-Oberplatte und S1-Oberplatte messen. Lordose positiv, Kyphose negativ.",
+    "meaning": "Regionale Krümmung mit Beckenmorphologie, Gesamtbalance und Lagerung zusammen beurteilen.",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": -90,
+        "maximum": 150
+      }
+    ],
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Seitliche Wirbelsäulenganzaufnahme im Stand mit S1 und beiden Hüftköpfen.",
+        "reference": "Protokoll- und lagerungsabhängig. Referenz individuell und im Verlauf prüfen.",
+        "rules": null,
+        "within": "Protokoll- und lagerungsabhängig. Referenz individuell und im Verlauf prüfen.",
+        "descriptiveAssessment": "Regionale Krümmung mit Beckenmorphologie, Gesamtbalance und Lagerung zusammen beurteilen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Quelle und Messmethode",
+        "url": "https://www.srs.org/Files/Research/Manuals-and-Publications/sdsg-radiographic-measuremnt-manual.pdf"
+      }
+    ]
+  },
+  {
+    "id": "slip",
+    "title": "Wirbelgleiten in Prozent",
+    "region": "LWS",
+    "group": "LWS",
+    "otherRegions": [],
+    "ageGroup": "all",
+    "aliases": "slip Wirbelgleiten in Prozent LWS",
+    "technique": "Ventrale Translation der kranialen Wirbelhinterkante gegenüber der kaudalen Wirbelhinterkante als A und a.p.-Tiefe der kaudalen Oberplatte als B messen. A ÷ B × 100.",
+    "meaning": "Ventrales Wirbelgleiten quantifiziert. Eine funktionelle Instabilität erfordert einen geeigneten Positionsvergleich.",
+    "formula": "percent",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Ventrale Translation",
+        "unit": "mm",
+        "minimum": 0,
+        "maximum": 150
+      },
+      {
+        "id": "B",
+        "label": "B · Tiefe der kaudalen Oberplatte",
+        "unit": "mm",
+        "minimum": 1,
+        "maximum": 150
+      }
+    ],
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Sagittale Ebene am betroffenen Segment. Lagerung und Etage angeben.",
+        "reference": "0 % ohne ventrale Translation. Die Prozentangabe beschreibt das Ausmaß der Anterolisthese.",
+        "rules": null,
+        "within": "Protokoll- und lagerungsabhängig. Referenz individuell und im Verlauf prüfen.",
+        "descriptiveAssessment": "Ventrales Wirbelgleiten quantifiziert. Eine funktionelle Instabilität erfordert einen geeigneten Positionsvergleich."
+      },
+      {
+        "modality": "CT",
+        "setup": "Sagittale Ebene am betroffenen Segment. Lagerung und Etage angeben.",
+        "reference": "0 % ohne ventrale Translation. Die Prozentangabe beschreibt das Ausmaß der Anterolisthese.",
+        "rules": null,
+        "within": "Protokoll- und lagerungsabhängig. Referenz individuell und im Verlauf prüfen.",
+        "descriptiveAssessment": "Ventrales Wirbelgleiten quantifiziert. Eine funktionelle Instabilität erfordert einen geeigneten Positionsvergleich."
+      },
+      {
+        "modality": "MR",
+        "setup": "Sagittale Ebene am betroffenen Segment. Lagerung und Etage angeben.",
+        "reference": "0 % ohne ventrale Translation. Die Prozentangabe beschreibt das Ausmaß der Anterolisthese.",
+        "rules": null,
+        "within": "Protokoll- und lagerungsabhängig. Referenz individuell und im Verlauf prüfen.",
+        "descriptiveAssessment": "Ventrales Wirbelgleiten quantifiziert. Eine funktionelle Instabilität erfordert einen geeigneten Positionsvergleich."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Quelle und Messmethode",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK430767/"
+      }
+    ]
+  },
+  {
+    "id": "sva",
+    "title": "Globale sagittale Vertikalachse C7–S1",
+    "region": "LWS",
+    "group": "LWS",
+    "otherRegions": [
+      "BWS"
+    ],
+    "ageGroup": "adult",
+    "aliases": "sva Globale sagittale Vertikalachse C7–S1 LWS",
+    "technique": "Horizontalen Abstand zwischen C7-Zentrums-Lot und posterosuperiorer Ecke von S1 messen. C7 ventral positiv, dorsal negativ.",
+    "meaning": "Vergrößerter positiver Wert spricht für eine sagittale Fehlbalance im angegebenen Messprofil.",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessene Distanz",
+        "unit": "mm",
+        "minimum": -300,
+        "maximum": 500
+      }
+    ],
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Seitliche Wirbelsäulenganzaufnahme im Stand mit S1 und beiden Hüftköpfen.",
+        "reference": "SRS–Schwab: positive SVA ≥ 40 mm als Orientierungsgrenze. Alter und Kompensation berücksichtigen.",
+        "rules": {
+          "low": null,
+          "high": 40,
+          "lowerInclusive": false,
+          "upperInclusive": true,
+          "highText": "Referenzgrenze erreicht oder überschritten. Vergrößerter positiver Wert spricht für eine sagittale Fehlbalance im angegebenen Messprofil."
+        },
+        "within": "Innerhalb der genannten Orientierungsgrenze.",
+        "descriptiveAssessment": "Vergrößerter positiver Wert spricht für eine sagittale Fehlbalance im angegebenen Messprofil."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Quelle und Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6259802/"
+      }
+    ]
+  },
+  {
+    "id": "pi",
+    "title": "Pelvic Incidence (PI)",
+    "region": "Becken",
+    "group": "Becken",
+    "otherRegions": [
+      "LWS"
+    ],
+    "ageGroup": "all",
+    "aliases": "pi Pelvic Incidence (PI) Becken",
+    "technique": "Lot auf die S1-Oberplatte in deren Mitte ziehen. Winkel zur Verbindung dieser Mitte mit dem Mittelpunkt beider Femurkopfzentren messen.",
+    "meaning": "Spinopelviner Parameter. Mit Lordose und globaler Balance gemeinsam beurteilen.",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": 0,
+        "maximum": 150
+      }
+    ],
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Seitliche Wirbelsäulenganzaufnahme im Stand mit S1 und beiden Hüftköpfen.",
+        "reference": "Morphologischer Parameter. PI = PT + SS bei identischen Landmarken.",
+        "rules": null,
+        "within": "Protokoll- und lagerungsabhängig. Referenz individuell und im Verlauf prüfen.",
+        "descriptiveAssessment": "Spinopelviner Parameter. Mit Lordose und globaler Balance gemeinsam beurteilen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Quelle und Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6259802/"
+      }
+    ]
+  },
+  {
+    "id": "pt",
+    "title": "Pelvic Tilt (PT)",
+    "region": "Becken",
+    "group": "Becken",
+    "otherRegions": [
+      "LWS"
+    ],
+    "ageGroup": "adult",
+    "aliases": "pt Pelvic Tilt (PT) Becken",
+    "technique": "Mittelpunkt beider Femurkopfzentren mit Mitte der S1-Oberplatte verbinden. Winkel zur Vertikalen messen. Retroversion positiv.",
+    "meaning": "Spinopelviner Parameter. Mit Lordose und globaler Balance gemeinsam beurteilen.",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": -45,
+        "maximum": 90
+      }
+    ],
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Seitliche Wirbelsäulenganzaufnahme im Stand mit S1 und beiden Hüftköpfen.",
+        "reference": "SRS–Schwab nutzt ≥ 20° als Hinweis auf vermehrte Beckenkippung. Altersabhängig.",
+        "rules": {
+          "low": null,
+          "high": 20,
+          "lowerInclusive": false,
+          "upperInclusive": true,
+          "highText": "Referenzgrenze erreicht oder überschritten. Spinopelviner Parameter. Mit Lordose und globaler Balance gemeinsam beurteilen."
+        },
+        "within": "Innerhalb der genannten Orientierungsgrenze.",
+        "descriptiveAssessment": "Spinopelviner Parameter. Mit Lordose und globaler Balance gemeinsam beurteilen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Quelle und Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6259802/"
+      }
+    ]
+  },
+  {
+    "id": "ss",
+    "title": "Sacral Slope (SS)",
+    "region": "Becken",
+    "group": "Becken",
+    "otherRegions": [
+      "LWS"
+    ],
+    "ageGroup": "all",
+    "aliases": "ss Sacral Slope (SS) Becken",
+    "technique": "Winkel zwischen S1-Oberplatte und Horizontalen messen. Nach ventral abfallende Oberplatte positiv.",
+    "meaning": "Spinopelviner Parameter. Mit Lordose und globaler Balance gemeinsam beurteilen.",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": -30,
+        "maximum": 100
+      }
+    ],
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Seitliche Wirbelsäulenganzaufnahme im Stand mit S1 und beiden Hüftköpfen.",
+        "reference": "Lagerungsabhängig. Gemeinsam mit PI und PT einordnen.",
+        "rules": null,
+        "within": "Protokoll- und lagerungsabhängig. Referenz individuell und im Verlauf prüfen.",
+        "descriptiveAssessment": "Spinopelviner Parameter. Mit Lordose und globaler Balance gemeinsam beurteilen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Quelle und Messmethode",
+        "url": "https://www.srs.org/Files/Research/Manuals-and-Publications/sdsg-radiographic-measuremnt-manual.pdf"
+      }
+    ]
+  },
+  {
+    "id": "pill",
+    "title": "PI–LL-Differenz",
+    "region": "LWS",
+    "group": "LWS",
+    "otherRegions": [
+      "Becken"
+    ],
+    "ageGroup": "adult",
+    "aliases": "pill PI–LL-Differenz LWS",
+    "technique": "PI als A eingeben. Lordose L1–S1 positiv bei Lordose, negativ bei Kyphose als B. Ausgabe PI minus LL.",
+    "meaning": "Vergrößerter positiver Wert spricht für eine sagittale Fehlbalance im angegebenen Messprofil.",
+    "formula": "difference",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Pelvic Incidence",
+        "unit": "°",
+        "minimum": 0,
+        "maximum": 150
+      },
+      {
+        "id": "B",
+        "label": "B · Lordose L1–S1",
+        "unit": "°",
+        "minimum": -90,
+        "maximum": 150
+      }
+    ],
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Seitliche Wirbelsäulenganzaufnahme im Stand mit S1 und beiden Hüftköpfen.",
+        "reference": "SRS–Schwab: positive Differenz ≥ 10° als Orientierungsgrenze. Altersangepasste Ziele können abweichen.",
+        "rules": {
+          "low": null,
+          "high": 10,
+          "lowerInclusive": false,
+          "upperInclusive": true,
+          "highText": "Referenzgrenze erreicht oder überschritten. Vergrößerter positiver Wert spricht für eine sagittale Fehlbalance im angegebenen Messprofil."
+        },
+        "within": "Innerhalb der genannten Orientierungsgrenze.",
+        "descriptiveAssessment": "Vergrößerter positiver Wert spricht für eine sagittale Fehlbalance im angegebenen Messprofil."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Quelle und Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6259802/"
+      }
+    ]
+  },
+  {
+    "id": "sijWidth",
+    "title": "ISG-Gelenkspaltweite",
+    "region": "ISG",
+    "group": "ISG",
+    "otherRegions": [],
+    "ageGroup": "adult",
+    "aliases": "sijWidth ISG-Gelenkspaltweite ISG",
+    "technique": "Im knorpeligen Gelenkanteil orthogonal zwischen den subchondralen Knochenlamellen messen. Seite und kraniokaudale Höhe dokumentieren.",
+    "meaning": "Spaltweite allein erlaubt keine Diagnose einer Sakroiliitis. Strukturelle und entzündliche Befunde gemeinsam beurteilen.",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessene Distanz",
+        "unit": "mm",
+        "minimum": 0,
+        "maximum": 30
+      }
+    ],
+    "profiles": [
+      {
+        "modality": "CT",
+        "setup": "Dünnschicht-CT mit zur Gelenkfläche orthogonalen Rekonstruktionen.",
+        "reference": "Unter 40 Jahren wurden im CT ≥ 2 mm als Referenz beschrieben. Alter, Lokalisation und Varianten beeinflussen die Weite.",
+        "rules": null,
+        "within": "Protokoll- und lagerungsabhängig. Referenz individuell und im Verlauf prüfen.",
+        "descriptiveAssessment": "Spaltweite allein erlaubt keine Diagnose einer Sakroiliitis. Strukturelle und entzündliche Befunde gemeinsam beurteilen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Quelle und Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10981241/"
+      }
+    ]
+  },
+  {
+    "id": "acea",
+    "title": "Vorderer CE-Winkel (ACEA)",
+    "region": "Hüfte",
+    "group": "Hüfte",
+    "otherRegions": [
+      "Becken"
+    ],
+    "ageGroup": "adult",
+    "aliases": "acea Vorderer CE-Winkel (ACEA) Hüfte",
+    "technique": "Vom Femurkopfzentrum Vertikale und Linie zum vorderen Ende des gewichttragenden Pfannendachs ziehen. Winkel messen.",
+    "meaning": "Maß für die Überdachung des Femurkopfes. Gesamte Hüftmorphologie mitbeurteilen.",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": -45,
+        "maximum": 100
+      }
+    ],
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Belastete Faux-Profil-Aufnahme nach Lequesne.",
+        "reference": "25–40° üblich, 20–25° grenzwertig, < 20° verminderte anteriore Überdachung.",
+        "rules": null,
+        "within": "Protokoll- und lagerungsabhängig. Referenz individuell und im Verlauf prüfen.",
+        "descriptiveAssessment": "Maß für die Überdachung des Femurkopfes. Gesamte Hüftmorphologie mitbeurteilen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Quelle und Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13369436/"
+      }
+    ]
+  },
+  {
+    "id": "extrusionIndex",
+    "title": "Femurkopf-Extrusionsindex",
+    "region": "Hüfte",
+    "group": "Hüfte",
+    "otherRegions": [
+      "Becken"
+    ],
+    "ageGroup": "adult",
+    "aliases": "extrusionIndex Femurkopf-Extrusionsindex Hüfte",
+    "technique": "Horizontal unüberdachte laterale Femurkopfbreite A durch gesamten horizontalen Femurkopfdurchmesser B teilen. A ÷ B × 100.",
+    "meaning": "Maß für die Überdachung des Femurkopfes. Gesamte Hüftmorphologie mitbeurteilen.",
+    "formula": "percent",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Unüberdachte Breite",
+        "unit": "mm",
+        "minimum": 0,
+        "maximum": 150
+      },
+      {
+        "id": "B",
+        "label": "B · Gesamter horizontaler Kopfdurchmesser",
+        "unit": "mm",
+        "minimum": 1,
+        "maximum": 150
+      }
+    ],
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Standardisierte Beckenübersicht a.p. Rotation und Kippung kontrollieren.",
+        "reference": "> 25 % weist auf vermehrte laterale Nichtüberdachung hin.",
+        "rules": {
+          "low": null,
+          "high": 25,
+          "lowerInclusive": false,
+          "upperInclusive": false,
+          "highText": "Referenzgrenze erreicht oder überschritten. Maß für die Überdachung des Femurkopfes. Gesamte Hüftmorphologie mitbeurteilen."
+        },
+        "within": "Innerhalb der genannten Orientierungsgrenze.",
+        "descriptiveAssessment": "Maß für die Überdachung des Femurkopfes. Gesamte Hüftmorphologie mitbeurteilen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Quelle und Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3008883/"
+      }
+    ]
+  },
+  {
+    "id": "sharp",
+    "title": "Pfannendachwinkel nach Sharp",
+    "region": "Becken",
+    "group": "Becken",
+    "otherRegions": [
+      "Hüfte"
+    ],
+    "ageGroup": "adult",
+    "aliases": "sharp Pfannendachwinkel nach Sharp Becken",
+    "technique": "Tränenfigurenlinie und Linie von der ipsilateralen Tränenfigur zum lateralen Pfannendachrand ziehen. Winkel messen.",
+    "meaning": "Maß für die Überdachung des Femurkopfes. Gesamte Hüftmorphologie mitbeurteilen.",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": 0,
+        "maximum": 100
+      }
+    ],
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Standardisierte Beckenübersicht a.p. Rotation und Kippung kontrollieren.",
+        "reference": "Etwa 33–38° typisch, 39–42° grenzwertig, > 42° vermehrte Pfannenneigung.",
+        "rules": null,
+        "within": "Protokoll- und lagerungsabhängig. Referenz individuell und im Verlauf prüfen.",
+        "descriptiveAssessment": "Maß für die Überdachung des Femurkopfes. Gesamte Hüftmorphologie mitbeurteilen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Quelle und Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13369436/"
+      }
+    ]
+  },
+  {
+    "id": "acetIndex",
+    "title": "Pädiatrischer Acetabulumindex",
+    "region": "Hüfte",
+    "group": "Hüfte",
+    "otherRegions": [
+      "Becken"
+    ],
+    "ageGroup": "pediatric",
+    "aliases": "acetIndex Pädiatrischer Acetabulumindex Hüfte",
+    "technique": "Hilgenreiner-Linie durch beide Y-Fugen ziehen. Winkel zur knöchernen Dachlinie vom ipsilateralen Y-Fugenrand zum lateralen Pfannenrand messen.",
+    "meaning": "Pädiatrische Hüftmorphologie im altersbezogenen Verlauf einordnen.",
+    "formula": "direct",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Gemessener Winkel",
+        "unit": "°",
+        "minimum": -30,
+        "maximum": 90
+      }
+    ],
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Standardisierte Beckenübersicht a.p. Rotation und Kippung kontrollieren.",
+        "reference": "Norm abhängig von Alter, Geschlecht und Skelettreife. Offene Y-Fugen erforderlich.",
+        "rules": null,
+        "within": "Protokoll- und lagerungsabhängig. Referenz individuell und im Verlauf prüfen.",
+        "descriptiveAssessment": "Pädiatrische Hüftmorphologie im altersbezogenen Verlauf einordnen.",
+        "pediatricReference": true
+      }
+    ],
+    "sources": [
+      {
+        "label": "Quelle und Messmethode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7851306/"
+      }
+    ]
+  },
+  {
+    "id": "reimers",
+    "title": "Reimers-Migrationsprozent",
+    "region": "Hüfte",
+    "group": "Hüfte",
+    "otherRegions": [
+      "Becken"
+    ],
+    "ageGroup": "pediatric",
+    "aliases": "reimers Reimers-Migrationsprozent Hüfte",
+    "technique": "Hilgenreiner-Linie durch die Y-Fugen ziehen. Perkins-Lot durch lateralen Pfannenrand. Breite des ossifizierten Kopfanteils lateral des Lots A durch gesamte Epiphysenbreite B teilen. × 100.",
+    "meaning": "Quantifiziert die laterale Migration des ossifizierten Femurkopfes. Verlauf und klinischen Kontext beachten.",
+    "formula": "percent",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Epiphysenbreite lateral Perkins",
+        "unit": "mm",
+        "minimum": 0,
+        "maximum": 150
+      },
+      {
+        "id": "B",
+        "label": "B · Gesamte ossifizierte Epiphysenbreite",
+        "unit": "mm",
+        "minimum": 1,
+        "maximum": 150
+      }
+    ],
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Standardisierte Beckenübersicht a.p. Rotation und Kippung kontrollieren.",
+        "reference": "AACPDM-Hüftüberwachung bei Zerebralparese: > 30 % ist Anlass zur kinderorthopädischen Beurteilung.",
+        "rules": null,
+        "within": "Protokoll- und lagerungsabhängig. Referenz individuell und im Verlauf prüfen.",
+        "descriptiveAssessment": "Quantifiziert die laterale Migration des ossifizierten Femurkopfes. Verlauf und klinischen Kontext beachten.",
+        "pediatricReference": true
+      }
+    ],
+    "sources": [
+      {
+        "label": "Quelle und Messmethode",
+        "url": "https://www.aacpdm.org/publications/care-pathways/hip-surveillance-in-cerebral-palsy"
+      }
+    ]
+  }
+]

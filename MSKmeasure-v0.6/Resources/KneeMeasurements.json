@@ -1,0 +1,825 @@
+[
+  {
+    "id": "isi",
+    "title": "Insall–Salvati-Index",
+    "region": "Knie",
+    "group": "Patellahöhe",
+    "aliases": "isi insall salvati insel salvini insall salvatti patella alta baja infera hochstand tiefstand",
+    "diagram": "isi",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Tuberositas bis knöcherner Patellaunterpol",
+        "unit": "mm",
+        "minimum": 0,
+        "maximum": 1000
+      },
+      {
+        "id": "B",
+        "label": "B · Maximale knöcherne Patellalänge",
+        "unit": "mm",
+        "minimum": 0,
+        "maximum": 1000
+      }
+    ],
+    "formula": "ratio",
+    "technique": "Vom knöchernen Patellaunterpol zur Insertion an der Tuberositas tibiae messen (A). Maximale diagonale knöcherne Patellalänge erfassen (B). A ÷ B.",
+    "meaning": "Die Patellahöhe beeinflusst das frühe trochleäre Engagement. Bei abweichenden Indizes Landmarken und Flexion prüfen.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Seitliche Knieaufnahme in etwa 30° Flexion mit überlagerten Femurkondylen.",
+        "reference": "0,80–1,20 · klassische Konvention. Andere Arbeiten verwenden 1,30 als Obergrenze.",
+        "rules": {
+          "low": 0.8,
+          "high": 1.2,
+          "lowText": "Erniedrigt · mit Patella baja vereinbar.",
+          "highText": "Erhöht · mit Patella alta vereinbar.",
+          "lowerInclusive": false,
+          "upperInclusive": false
+        },
+        "within": "Im Bereich der angegebenen Referenz."
+      },
+      {
+        "modality": "MR",
+        "setup": "Zentrale sagittale MRT-Schicht durch Patella und Streckapparat. Flexion und Landmarken dokumentieren.",
+        "reference": "0,74–1,50 nach Shabshin et al. für die sagittale MRT. Je nach Protokoll werden engere Grenzen verwendet.",
+        "rules": {
+          "low": 0.74,
+          "high": 1.5,
+          "lowText": "Erniedrigt · mit Patella baja vereinbar.",
+          "highText": "Erhöht · mit Patella alta vereinbar.",
+          "lowerInclusive": false,
+          "upperInclusive": false
+        },
+        "within": "Im MRT-Referenzbereich nach Shabshin et al."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Leitfaden, Abb. 12",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13139256/#Fig12"
+      },
+      {
+        "label": "Systematische Übersicht",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8142007/"
+      },
+      {
+        "label": "Shabshin et al., MRT-Referenz",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15221214/"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "cdi",
+    "title": "Caton–Deschamps-Index",
+    "region": "Knie",
+    "group": "Patellahöhe",
+    "aliases": "cdi caton deschamps patella alta baja infera hochstand tiefstand",
+    "diagram": "cdi",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Patellaflächen-Unterrand bis vorderes Tibiaplateau",
+        "unit": "mm",
+        "minimum": 0,
+        "maximum": 1000
+      },
+      {
+        "id": "B",
+        "label": "B · Länge der Patellagelenkfläche",
+        "unit": "mm",
+        "minimum": 0,
+        "maximum": 1000
+      }
+    ],
+    "formula": "ratio",
+    "technique": "Geradliniger Abstand vom Unterrand der Patellagelenkfläche zur anterosuperioren Kante der tibialen Gelenkfläche (A). Länge der Patellagelenkfläche (B). A ÷ B.",
+    "meaning": "Die Patellahöhe beeinflusst das frühe trochleäre Engagement. Bei abweichenden Indizes Landmarken und Flexion prüfen.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Seitliche Knieaufnahme in etwa 30° Flexion mit überlagerten Femurkondylen.",
+        "reference": "0,60–1,20 · gebräuchliche Konvention. Andere Quellen setzen die Obergrenze bei 1,30.",
+        "rules": {
+          "low": 0.6,
+          "high": 1.2,
+          "lowText": "Erniedrigt · mit Patella baja vereinbar.",
+          "highText": "Erhöht · mit Patella alta vereinbar.",
+          "lowerInclusive": false,
+          "upperInclusive": false
+        },
+        "within": "Im Bereich der angegebenen Referenz."
+      },
+      {
+        "modality": "MR",
+        "setup": "Zentrale sagittale MRT-Schicht durch Patella und Streckapparat. Flexion und Landmarken dokumentieren.",
+        "reference": "MRT-Literatur nennt je nach Protokoll u. a. > 1,20 oder > 1,30 für Hochstand. Befund im Aufnahmeprotokoll einordnen.",
+        "rules": null,
+        "within": "Im Bereich der angegebenen Referenz."
+      },
+      {
+        "modality": "CT",
+        "setup": "Zentrale sagittale CT-Rekonstruktion mit eindeutig sichtbaren knöchernen Gelenkflächenlandmarken.",
+        "reference": "Seitliches Röntgen als Referenzmethode. CT-Wert protokollbezogen einordnen.",
+        "rules": null,
+        "within": "Im Bereich der angegebenen Referenz."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Leitfaden, Abb. 14",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13139256/#Fig14"
+      },
+      {
+        "label": "CDI-Röntgenreferenz",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9397114/"
+      },
+      {
+        "label": "MRT-Messverfahren",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11364617/"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "bpi",
+    "title": "Blackburne–Peel-Index",
+    "region": "Knie",
+    "group": "Patellahöhe",
+    "aliases": "bpi blackburne peel patella alta baja infera hochstand tiefstand",
+    "diagram": "bpi",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Lotabstand zur Tibiaplateaulinie",
+        "unit": "mm",
+        "minimum": 0,
+        "maximum": 1000
+      },
+      {
+        "id": "B",
+        "label": "B · Länge der Patellagelenkfläche",
+        "unit": "mm",
+        "minimum": 0,
+        "maximum": 1000
+      }
+    ],
+    "formula": "ratio",
+    "technique": "Tangente entlang des Tibiaplateaus horizontal nach ventral verlängern. Den senkrechten Abstand vom unteren Ende der Patellagelenkfläche zur Referenzlinie (A) durch deren Gelenkflächenlänge (B) teilen.",
+    "meaning": "Die Patellahöhe beeinflusst das frühe trochleäre Engagement. Bei abweichenden Indizes Landmarken und Flexion prüfen.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Seitliche Knieaufnahme in etwa 30° Flexion mit überlagerten Femurkondylen.",
+        "reference": "0,50–1,00 · Referenzbereich des radiologischen Leitfadens.",
+        "rules": {
+          "low": 0.5,
+          "high": 1,
+          "lowText": "Erniedrigt · mit Patella baja vereinbar.",
+          "highText": "Erhöht · mit Patella alta vereinbar.",
+          "lowerInclusive": false,
+          "upperInclusive": false
+        },
+        "within": "Im Bereich der angegebenen Referenz."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Leitfaden, Abb. 15",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13139256/#Fig15"
+      },
+      {
+        "label": "Originalarbeit",
+        "url": "https://doi.org/10.1302/0301-620X.59B2.873986"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "pti",
+    "title": "Patellotrochleärer Index",
+    "region": "Knie",
+    "group": "Patellahöhe",
+    "aliases": "pti biedert patellotrochlear patellotrochlea knorpel overlap patella alta baja hochstand tiefstand",
+    "diagram": "pti",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Überlappung mit Trochleaknorpel",
+        "unit": "mm",
+        "minimum": 0,
+        "maximum": 1000
+      },
+      {
+        "id": "B",
+        "label": "B · Länge des Patellaknorpels",
+        "unit": "mm",
+        "minimum": 0,
+        "maximum": 1000
+      }
+    ],
+    "formula": "percent",
+    "technique": "Zentrale sagittale Schicht mit maximaler Patellaknorpeldicke wählen. Anteil des Patellaknorpels mit trochleärer Überlappung (A) durch die gesamte Patellaknorpellänge (B) teilen. Beide Längen in derselben Messrichtung.",
+    "meaning": "Zeigt den Anteil der patellaren Knorpelfläche mit trochleärer Überlappung. Die Messung ist besonders flexionsabhängig.",
+    "profiles": [
+      {
+        "modality": "MR",
+        "setup": "Sagittale MRT in möglichst standardisierter Extension mit abgrenzbaren Knorpelflächen.",
+        "reference": "Historische Richtwerte < 12,5 % für Hochstand und > 50 % für Tiefstand. Andere Protokolle verwenden abweichende Grenzen.",
+        "rules": {
+          "low": 12.5,
+          "high": 50,
+          "lowText": "Verminderter Überlappungsindex · mit Patella alta vereinbar.",
+          "highText": "Vermehrter Überlappungsindex · mit Patella baja vereinbar.",
+          "lowerInclusive": false,
+          "upperInclusive": false
+        },
+        "within": "Zwischen den angegebenen historischen Grenzen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Leitfaden, Abb. 16",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13139256/#Fig16"
+      },
+      {
+        "label": "Methodenübersicht",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10012577/"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "tttg",
+    "title": "TT–TG-Abstand",
+    "region": "Knie",
+    "group": "Patellatracking",
+    "aliases": "tt-tg tttg tuberositas tibiae trochlear groove tubercle rinnenabstand lateralisation kniescheibe",
+    "diagram": "tttg",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Abstand",
+        "unit": "mm",
+        "minimum": -500,
+        "maximum": 500
+      }
+    ],
+    "formula": "direct",
+    "technique": "Axiale Schichten ko-registriert betrachten. Parallele Lote auf die dorsale Kondylentangente durch den tiefsten Trochleapunkt und durch den Tuberositas-Referenzpunkt ziehen. Abstand der Lote parallel zur Tangente. Lateral positiv, medial negativ.",
+    "meaning": "Ein erhöhter Abstand zeigt eine vermehrte Lateralisierung der Tuberositas relativ zur Trochlea. Flexion, Rotation und die Landmarken beeinflussen die Messung.",
+    "profiles": [
+      {
+        "modality": "CT",
+        "setup": "Axial, möglichst extensionsnah. Knöcherne Rinne und ventrale Tuberositas-Prominenz verwenden.",
+        "reference": "< 15 mm üblich, 15–20 mm grenzwertig, > 20 mm erhöht.",
+        "rules": {
+          "low": 15,
+          "high": 20,
+          "lowText": "Unterhalb der CT-Grenzzone.",
+          "highText": "Erhöht nach CT-Referenz.",
+          "lowerInclusive": false,
+          "upperInclusive": false,
+          "intermediate": "CT-Grenzbereich."
+        },
+        "within": "Im Bereich der angegebenen Referenz."
+      },
+      {
+        "modality": "MR",
+        "setup": "Axial, möglichst extensionsnah. Proximal eindeutig ausgebildete knorpelige Rinne und Mitte der distalen Patellarsehneninsertion verwenden.",
+        "reference": "Etwa 10 mm typischer Wert, > 15 mm erhöht nach McNassor et al. Andere Studien berichten abweichende Schwellen.",
+        "rules": {
+          "high": 15,
+          "highText": "Erhöht nach MRT-Referenz.",
+          "lowerInclusive": false,
+          "upperInclusive": false
+        },
+        "within": "Am oder unter dem angegebenen MRT-Grenzwert."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Messschema, Abb. 18",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13139256/#Fig18"
+      },
+      {
+        "label": "Modalitätsspezifische Richtwerte",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13071287/"
+      },
+      {
+        "label": "CT/MRT-Metaanalyse",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31064019/"
+      },
+      {
+        "label": "Pädiatrische TT–TG-Referenzen",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24553888/"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "sulcus",
+    "title": "Trochleawinkel",
+    "region": "Knie",
+    "group": "Trochlea",
+    "aliases": "sulcus sulkus sulcus angle trochlea trochleadysplasie rinnenwinkel patellawinkel",
+    "diagram": "sulcus",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Winkel",
+        "unit": "°",
+        "minimum": 0,
+        "maximum": 180
+      }
+    ],
+    "formula": "direct",
+    "technique": "Innenwinkel zwischen den Linien vom tiefsten Sulkuspunkt zu den prominenten Endpunkten der medialen und lateralen Trochleafacette erfassen.",
+    "meaning": "Ein größerer Winkel entspricht einer flacheren Rinne und kann auf eine Trochleadysplasie hinweisen.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Tangentiale Patellaaufnahme. Knöcherne Facetten in der verwendeten Standardprojektion.",
+        "reference": "Etwa 135° typisch. > 145° erhöht nach der angeführten Übersicht.",
+        "rules": {
+          "high": 145,
+          "highText": "Vergrößert · flache Trochlea möglich.",
+          "lowerInclusive": false,
+          "upperInclusive": false
+        },
+        "within": "Am oder unter der angegebenen Grenze."
+      },
+      {
+        "modality": "MR",
+        "setup": "Axial in Extension. Knorpelige Facetten auf vergleichbarer proximaler Trochleahöhe.",
+        "reference": "> 160° nach der angeführten MRT-Methode in Extension. Schichtebene und Referenzkontur sind relevant.",
+        "rules": {
+          "high": 160,
+          "highText": "Vergrößert nach dieser MRT-Referenz.",
+          "lowerInclusive": false,
+          "upperInclusive": false
+        },
+        "within": "Am oder unter der angegebenen MRT-Grenze."
+      },
+      {
+        "modality": "CT",
+        "setup": "Axial an einer dokumentierten Trochleahöhe anhand der knöchernen Facetten.",
+        "reference": "Literaturwerte hängen von Höhe und Landmarken ab. Der Messwert wird deskriptiv ausgegeben.",
+        "rules": null,
+        "within": "Im Bereich der angegebenen Referenz."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Projektion und MRT-Richtwert",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13071287/"
+      },
+      {
+        "label": "Varianten der Methode",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10012577/"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "lti",
+    "title": "Laterale Trochleainklination",
+    "region": "Knie",
+    "group": "Trochlea",
+    "aliases": "lti lateral trochlear inclination trochleadysplasie trochleafacette",
+    "diagram": "lti",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Winkel",
+        "unit": "°",
+        "minimum": 0,
+        "maximum": 90
+      }
+    ],
+    "formula": "direct",
+    "technique": "Winkel zwischen der dorsalen Femurkondylentangente und der Tangente der subchondralen lateralen Trochleafacette messen.",
+    "meaning": "Eine geringe Neigung der lateralen Facette stützt den Verdacht auf eine Trochleadysplasie.",
+    "profiles": [
+      {
+        "modality": "MR",
+        "setup": "Axial auf der proximalsten Schicht mit vollständig knorpelgedeckter Trochlea. Für beide Winkelarme die subchondralen Konturen verwenden.",
+        "reference": "11° Cut-off in der Originalarbeit. Werte unter 11° werden hier als vermindert angezeigt.",
+        "rules": {
+          "low": 11,
+          "lowText": "Vermindert · Trochleadysplasie möglich.",
+          "lowerInclusive": false,
+          "upperInclusive": false
+        },
+        "within": "Am oder über der angegebenen Grenze."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Carrillon et al., Originalarbeit",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10924589/"
+      },
+      {
+        "label": "Schichtwahl",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13071287/"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "depth",
+    "title": "Axiale Trochleatiefe",
+    "region": "Knie",
+    "group": "Trochlea",
+    "aliases": "trochlear groove depth tgd trochleatiefe trochleadysplasie",
+    "diagram": "depth",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Höhe der medialen Facette",
+        "unit": "mm",
+        "minimum": 0,
+        "maximum": 1000
+      },
+      {
+        "id": "B",
+        "label": "B · Höhe der lateralen Facette",
+        "unit": "mm",
+        "minimum": 0,
+        "maximum": 1000
+      },
+      {
+        "id": "C",
+        "label": "C · Höhe des Sulkusgrunds",
+        "unit": "mm",
+        "minimum": 0,
+        "maximum": 1000
+      }
+    ],
+    "formula": "depth",
+    "technique": "Von der dorsalen Kondylentangente die senkrechten Abstände zu den vordersten Punkten der medialen (A) und lateralen Facette (B) sowie zum tiefsten Sulkuspunkt (C) messen. (A + B) ÷ 2 − C.",
+    "meaning": "Eine geringe Trochleatiefe stützt den Verdacht auf eine Trochleadysplasie.",
+    "profiles": [
+      {
+        "modality": "MR",
+        "setup": "Axiale Schicht 3 cm oberhalb des femorotibialen Gelenkspalts. Knöcherne Konturen nach Pfirrmann.",
+        "reference": "≤ 3 mm in der Originalstudie mit Dysplasie assoziiert.",
+        "rules": {
+          "low": 3,
+          "lowText": "Abgeflacht · Trochleadysplasie möglich.",
+          "lowerInclusive": true,
+          "upperInclusive": false
+        },
+        "within": "Über der angegebenen Grenze."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Pfirrmann et al., Originalarbeit",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10966723/"
+      },
+      {
+        "label": "Messschema",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12563480/"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "tilt",
+    "title": "Patellatilt",
+    "region": "Knie",
+    "group": "Patellatracking",
+    "aliases": "patellar tilt patellakippung patellaneigung patellakippwinkel dejour",
+    "diagram": "tilt",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Winkel",
+        "unit": "°",
+        "minimum": 0,
+        "maximum": 90
+      }
+    ],
+    "formula": "direct",
+    "technique": "Dorsale Femurkondylentangente und maximale Patellabreitenachse in ko-registrierten axialen Schichten einzeichnen. Den kleineren Winkel der beiden Linien erfassen und die Kippungsrichtung beurteilen.",
+    "meaning": "Vermehrte laterale Kippung kann mit patellofemoralem Maltracking einhergehen. Flexion und Quadrizepsaktivität beeinflussen den Winkel.",
+    "profiles": [
+      {
+        "modality": "CT",
+        "setup": "Axial in Extension. Breitenachse und dorsale knöcherne Kondylentangente.",
+        "reference": "> 20° als Orientierungsgrenze für lateralen Tilt in der axialen CT nach Dejour.",
+        "rules": {
+          "high": 20,
+          "highText": "Vermehrter Tilt-Winkel · Richtung am Bild prüfen.",
+          "lowerInclusive": false,
+          "upperInclusive": false
+        },
+        "within": "Am oder unter der angegebenen CT-Grenze."
+      },
+      {
+        "modality": "MR",
+        "setup": "Axial in Extensionsnähe mit entspanntem Quadrizeps. Maximale Patellabreite als Achse.",
+        "reference": "MRT-Einordnung abhängig von Lagerung, Ebene und Methode. Winkel und Richtung beschreiben.",
+        "rules": null,
+        "within": "Im Bereich der angegebenen Referenz."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Definitionen und Grenzwerte",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10012577/"
+      },
+      {
+        "label": "Systematische Übersicht",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8142007/"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "merchant",
+    "title": "Kongruenzwinkel nach Merchant",
+    "region": "Knie",
+    "group": "Patellatracking",
+    "aliases": "merchant congruence kongruenzwinkel patella subluxation axial",
+    "diagram": "merchant",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Winkel",
+        "unit": "°",
+        "minimum": -180,
+        "maximum": 180
+      }
+    ],
+    "formula": "direct",
+    "technique": "Sulkuswinkel halbieren. Vom Sulkustiefpunkt zur Patellagelenkleiste eine zweite Linie ziehen. Winkel beider Linien messen. Abweichung nach lateral positiv, nach medial negativ.",
+    "meaning": "Ein vermehrt positiver Winkel spricht für eine Lateralisierung der Patella.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Axiale Merchant-Aufnahme in etwa 45° Knieflexion.",
+        "reference": "Mittelwert etwa −6°. > +16° mit lateraler Subluxation assoziiert.",
+        "rules": {
+          "high": 16,
+          "highText": "Vergrößert · laterale Patellasubluxation möglich.",
+          "lowerInclusive": false,
+          "upperInclusive": false
+        },
+        "within": "Am oder unter dem Grenzwert für laterale Abweichung."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Radiographic Assessment, Abb. 10",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3445133/"
+      },
+      {
+        "label": "Leitfaden",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13139256/"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "extrusion",
+    "title": "Mediale Meniskusextrusion",
+    "region": "Knie",
+    "group": "Meniskus",
+    "aliases": "meniskus extrusion innenmeniskus innenmeniskusextrusion wurzel root medial",
+    "diagram": "extrusion",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Abstand",
+        "unit": "mm",
+        "minimum": 0,
+        "maximum": 500
+      }
+    ],
+    "formula": "direct",
+    "technique": "Koronal durch den medialen Meniskuskörper am Hinterrand des medialen Kollateralbands. Von der nativen medialen Tibiaplateaukante bis zum äußeren Meniskusrand parallel zum Plateau messen. Osteophyten aus der Referenzkante ausschließen.",
+    "meaning": "Vermehrte Extrusion findet sich u. a. bei Meniskuswurzel- oder Radialrissen und Degeneration. Aufnahme unter Last kann den Wert verändern.",
+    "profiles": [
+      {
+        "modality": "MR",
+        "setup": "Koronale MRT ohne Belastung in Standardlagerung.",
+        "reference": "< 3 mm üblich. ≥ 3 mm gebräuchlicher Orientierungswert für vermehrte mediale Extrusion.",
+        "rules": {
+          "high": 3,
+          "highText": "Vermehrte mediale Meniskusextrusion.",
+          "lowerInclusive": false,
+          "upperInclusive": true
+        },
+        "within": "Im Bereich der angegebenen Referenz."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Übersicht und Schichtwahl",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8573502/"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "slope",
+    "title": "Medialer posteriorer Tibiaslope",
+    "region": "Knie",
+    "group": "Tibiaslope",
+    "aliases": "pts slope tibiaslope posterior tibial slope steilheit hintere neigung vkb acl",
+    "diagram": "slope",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Winkel",
+        "unit": "°",
+        "minimum": -90,
+        "maximum": 90
+      }
+    ],
+    "formula": "direct",
+    "technique": "Diaphysenmittelpunkte 5 und 15 cm unterhalb der Gelenklinie verbinden. Winkel zwischen dem Lot auf diese Achse und der Tangente ans mediale Tibiaplateau messen. Posterior abfallend positiv eingeben.",
+    "meaning": "Eine steile hintere Neigung kann die anteriore Tibiatranslation begünstigen. Achsendefinition und Messlänge beeinflussen den Wert.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "Streng seitliches Röntgen mit ausreichend abgebildeter proximaler Tibia, 15 cm distal der Gelenklinie.",
+        "reference": "6–12° als methodenspezifischer Orientierungsbereich nach systematischer Übersicht.",
+        "rules": {
+          "low": 6,
+          "high": 12,
+          "lowText": "Unter dem angegebenen Orientierungsbereich.",
+          "highText": "Über dem angegebenen Orientierungsbereich.",
+          "lowerInclusive": false,
+          "upperInclusive": false
+        },
+        "within": "Im Bereich der angegebenen Referenz."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Systematische Übersicht",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10441937/"
+      },
+      {
+        "label": "ESSKA-Konsens zur Messung",
+        "url": "https://cdn.ymaws.com/www.esska.org/resource/resmgr/docs/consensus_projects/acl_rev_consensus_compl_2022.pdf"
+      }
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "hka",
+    "title": "Mechanische Beinachse (HKA)",
+    "region": "Ganzbeinaufnahmen",
+    "group": "Beinachse",
+    "aliases": "hka hip knee ankle varus valgus genu ganzbein mikulicz mechanische achse Ganzbein Beinachse",
+    "diagram": "hka",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Abweichung von 180°",
+        "unit": "°",
+        "minimum": -90,
+        "maximum": 90
+      }
+    ],
+    "formula": "direct",
+    "technique": "Zentrum des Femurkopfs mit dem distalen Femurzentrum verbinden. Zentrum der proximalen Tibia mit dem Zentrum des oberen Sprunggelenks verbinden. Die Abweichung von der geraden mechanischen Achse eingeben. 0° neutral, Varus negativ, Valgus positiv.",
+    "meaning": "Der HKA beschreibt die Gesamtachse unter Last. mLDFA und MPTA helfen bei der Zuordnung der knöchernen Komponente.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "AP-Ganzbeinaufnahme im Stand mit nach vorne ausgerichteter Patella und sichtbarer Hüfte, Knie und OSG.",
+        "reference": "Neutral 0°. Referenz ±3° für die Abweichung von 180°.",
+        "rules": {
+          "low": -3,
+          "high": 3,
+          "lowText": "Varusachse.",
+          "highText": "Valgusachse.",
+          "lowerInclusive": false,
+          "upperInclusive": false
+        },
+        "within": "Im Bereich der angegebenen Referenz."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Referenzbereich",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8294812/"
+      },
+      {
+        "label": "Anatomische Referenzpunkte",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8246117/"
+      }
+    ],
+    "otherRegions": [
+      "Knie"
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "mpta",
+    "title": "Mechanischer medialer proximaler Tibiawinkel",
+    "region": "Ganzbeinaufnahmen",
+    "group": "Beinachse",
+    "aliases": "mpta mmpta tibia tibial proximal angle paley varus valgus Ganzbein Beinachse",
+    "diagram": "mpta",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Winkel",
+        "unit": "°",
+        "minimum": 0,
+        "maximum": 180
+      }
+    ],
+    "formula": "direct",
+    "technique": "Proximales Tibiazentrum und OSG-Zentrum verbinden. Gelenklinie des proximalen Tibiaplateaus durch die subchondralen Referenzpunkte der beiden Plateaus ziehen. Medialen Winkel zwischen Linie und mechanischer Tibiaachse messen.",
+    "meaning": "Ein kleiner mMPTA spricht für eine proximale tibiale Varuskomponente, ein großer für eine Valguskomponente.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "AP-Ganzbeinaufnahme unter Last mit standardisierter Rotation.",
+        "reference": "87° typisch, 85–90° nach HSS-Referenztabelle.",
+        "rules": {
+          "low": 85,
+          "high": 90,
+          "lowText": "Vermindert · tibiale Varuskomponente.",
+          "highText": "Erhöht · tibiale Valguskomponente.",
+          "lowerInclusive": false,
+          "upperInclusive": false
+        },
+        "within": "Im Bereich der angegebenen Referenz."
+      }
+    ],
+    "sources": [
+      {
+        "label": "HSS-Referenztabelle",
+        "url": "https://www.hss.edu/globalassets/files/ll/ll-understanding-deformity-correction-and-tsf-principles.pdf"
+      },
+      {
+        "label": "Messschema",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8246117/"
+      }
+    ],
+    "otherRegions": [
+      "Knie"
+    ],
+    "ageGroup": "all"
+  },
+  {
+    "id": "mldfa",
+    "title": "Mechanischer lateraler distaler Femurwinkel",
+    "region": "Ganzbeinaufnahmen",
+    "group": "Beinachse",
+    "aliases": "mldfa ldfa lateral distal femoral angle paley femur varus valgus Ganzbein Beinachse",
+    "diagram": "mldfa",
+    "fields": [
+      {
+        "id": "A",
+        "label": "A · Winkel",
+        "unit": "°",
+        "minimum": 0,
+        "maximum": 180
+      }
+    ],
+    "formula": "direct",
+    "technique": "Hüftkopfzentrum mit dem distalen Femurzentrum verbinden. Tangente an die distalen subchondralen Gelenkflächen der Femurkondylen ziehen. Lateralen Winkel zwischen dieser Linie und der mechanischen Femurachse messen.",
+    "meaning": "Ein erhöhter mLDFA spricht für eine distale femorale Varuskomponente, ein verminderter für eine Valguskomponente.",
+    "profiles": [
+      {
+        "modality": "XR",
+        "setup": "AP-Ganzbeinaufnahme unter Last mit standardisierter Rotation.",
+        "reference": "88° typisch, 85–90° nach HSS-Referenztabelle.",
+        "rules": {
+          "low": 85,
+          "high": 90,
+          "lowText": "Vermindert · femorale Valguskomponente.",
+          "highText": "Erhöht · femorale Varuskomponente.",
+          "lowerInclusive": false,
+          "upperInclusive": false
+        },
+        "within": "Im Bereich der angegebenen Referenz."
+      }
+    ],
+    "sources": [
+      {
+        "label": "HSS-Referenztabelle",
+        "url": "https://www.hss.edu/globalassets/files/ll/ll-understanding-deformity-correction-and-tsf-principles.pdf"
+      },
+      {
+        "label": "Messschema",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8246117/"
+      }
+    ],
+    "otherRegions": [
+      "Knie"
+    ],
+    "ageGroup": "all"
+  }
+]

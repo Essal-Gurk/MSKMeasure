@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleExecutable</key>
+	<string>MSKmeasure</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.isixmskmessungen.plugin</string>
+	<key>CFBundleName</key>
+	<string>MSKmeasure</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.6</string>
+	<key>CFBundleVersion</key>
+	<string>6</string>
+	<key>IsiXPluginAPIVersion</key>
+	<integer>1</integer>
+	<key>IsiXPluginCapabilities</key>
+	<array>
+		<string>viewer.read</string>
+		<string>database.read</string>
+	</array>
+	<key>LSMinimumSystemVersion</key>
+	<string>15.0</string>
+	<key>NSPrincipalClass</key>
+	<string>MSKmeasure.MSKmeasure</string>
+</dict>
+</plist>
