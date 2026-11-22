@@ -18,7 +18,7 @@ The beta is not intended for clinical reporting, diagnosis, follow-up assessment
 No conformity with Regulation (EU) 2017/745 on medical devices (MDR) is claimed for this beta. The regulatory status of each version depends on its intended purpose and specific functionality. See the EU MDR, particularly Article 2, points (1) and (12) and the MDCG guidance on qualification and classification of software.
 Requirements and installation
 - A Mac with Apple Silicon running macOS 15 or later.
-- The GitHub edition of IsiX. The v0.5 build was built for IsiX 6.0.3 using IsiXPluginKit 6.0.3. The Mac App Store edition of IsiX does not load external plugins.
+- The GitHub edition of IsiX. The v0.5 build was built for IsiX 6.0.7 using IsiXPluginKit SDK v1.0. The Mac App Store edition of IsiX does not load external plugins.
 1. Open Releases in this repository and download the Apple Silicon plugin ZIP under Assets.
 2. Extract the ZIP and use the IsiX Plugin Manager to install the included IsiXMSKMessungen.isixplugin bundle.
 3. Restart IsiX, open a synthetic test series, and select MSK Messungen (v0.5) from the plugin menu. The menu label varies with the language setting.
