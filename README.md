@@ -1,6 +1,3 @@
-<img width="1910" height="1778" alt="MSK_Messungen" src="https://github.com/user-attachments/assets/2594ad6d-ac84-448c-8d06-741fae61ce39" />
-
-
 # IsiX MSK Measurements
 Community Beta · v0.6 · Apple Silicon
 
@@ -29,3 +26,5 @@ Open an Issue to report a bug or suggest an improvement. Include the plugin vers
 Issues are public. Use fictitious measurements and synthetic test data. Keep patient images, DICOM files from clinical practice, reports, and logs containing identifying information out of public issues.
 Terms of use
 The release package contains the terms of use for the corresponding beta build and any third-party notices.
+
+<img width="1910" height="1778" alt="MSK_Messungen" src="https://github.com/user-attachments/assets/2594ad6d-ac84-448c-8d06-741fae61ce39" />
